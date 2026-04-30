@@ -29,22 +29,13 @@ jobs:
 
       - name: Resolve report paths
         id: report
-        env:
-          REPORT_BASE_URL: ${{ vars.REPORT_BASE_URL }}
         run: |
           REPORT_DATE="$(date -u +%F)"
           REPORT_HTML="reports/${REPORT_DATE}.html"
           REPORT_POSTER="reports/${REPORT_DATE}-poster.svg"
-          DEFAULT_LINK="https://github.com/${GITHUB_REPOSITORY}/blob/${GITHUB_REF_NAME}/${REPORT_HTML}"
-          if [ -n "$REPORT_BASE_URL" ]; then
-            REPORT_LINK="${REPORT_BASE_URL%/}/${REPORT_HTML}"
-          else
-            REPORT_LINK="$DEFAULT_LINK"
-          fi
           echo "date=${REPORT_DATE}" >> "$GITHUB_OUTPUT"
           echo "html=${REPORT_HTML}" >> "$GITHUB_OUTPUT"
           echo "poster=${REPORT_POSTER}" >> "$GITHUB_OUTPUT"
-          echo "link=${REPORT_LINK}" >> "$GITHUB_OUTPUT"
 
       - name: Commit generated report
         continue-on-error: true
@@ -63,19 +54,3 @@ jobs:
             ${{ steps.report.outputs.html }}
             ${{ steps.report.outputs.poster }}
             data/items/${{ steps.report.outputs.date }}.json
-
-      - name: Send email
-        if: always()
-        env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          SMTP_FROM: ${{ secrets.SMTP_FROM }}
-        run: |
-          python3 scripts/send_report_email.py \
-            --to "qudongisme@gmail.com" \
-            --subject "软件测试与自动化执行流 GitHub 热点日报 ${{ steps.report.outputs.date }}" \
-            --html-report "${{ steps.report.outputs.html }}" \
-            --poster "${{ steps.report.outputs.poster }}" \
-            --link "${{ steps.report.outputs.link }}"

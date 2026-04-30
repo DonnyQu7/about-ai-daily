@@ -9,7 +9,7 @@
 - 过滤商业营销、内容创作、非编程工程类项目。
 - 输出 Markdown、HTML、SVG 海报和 JSON 归档。
 - HTML 报告中的项目卡片可直接点击跳转 GitHub。
-- CI 每天 UAE 时间上午 7 点自动执行，并发送邮件。
+- CI 每天 UAE 时间上午 7 点自动执行，并自动生成 HTML 文件。
 
 ## 快速开始
 
@@ -50,31 +50,7 @@ gh auth login -h github.com
 - `.github/workflows/daily-report.yml`
 - 默认每天 03:00 UTC 运行一次，等于 UAE 时间 07:00。
 - 工作流会生成日报，并把 `reports/` 与 `data/items/` 强制提交回仓库。
-- 执行完成后发送邮件到 `qudongisme@gmail.com`，邮件包含 HTML 报告链接和 SVG 海报附件。
-
-需要在 GitHub 仓库 Secrets 中配置：
-
-```text
-SMTP_HOST
-SMTP_PORT
-SMTP_USERNAME
-SMTP_PASSWORD
-SMTP_FROM
-```
-
-可选配置仓库 Variables：
-
-```text
-REPORT_BASE_URL
-```
-
-如果启用了 GitHub Pages，可以把 `REPORT_BASE_URL` 设置成类似：
-
-```text
-https://<owner>.github.io/<repo>
-```
-
-如果不设置，邮件链接默认指向 GitHub 仓库里的 HTML 文件。
+- 每次运行会上传 artifact：`reports/YYYY-MM-DD.html`、`reports/YYYY-MM-DD-poster.svg` 和 `data/items/YYYY-MM-DD.json`。
 
 ## 本地验证
 
