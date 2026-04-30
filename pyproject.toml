@@ -1,0 +1,9 @@
+[project]
+name = "about-ai-daily"
+version = "0.1.0"
+description = "Daily AI application intelligence collector and report generator."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+about-ai-daily = "about_ai_daily.main:main"

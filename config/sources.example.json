@@ -1,0 +1,91 @@
+{
+  "report": {
+    "title": "软件测试与自动化执行流 GitHub 热点日报",
+    "language": "zh-CN",
+    "min_score": 4.5,
+    "max_items": 50,
+    "windows": [
+      {
+        "key": "daily",
+        "title": "过去 24 小时 GitHub 热点",
+        "hours": 24,
+        "max_items": 20
+      },
+      {
+        "key": "weekly",
+        "title": "过去 7 天 GitHub 热点",
+        "hours": 168,
+        "max_items": 30
+      }
+    ]
+  },
+  "github": {
+    "enabled": true,
+    "account": "DonnyQu7",
+    "per_query": 20,
+    "min_stars": 5,
+    "queries": [
+      "AI testing automation",
+      "AI QA automation",
+      "software testing agent",
+      "test automation agent",
+      "QA agent bug reproduction",
+      "Playwright AI testing",
+      "Selenium AI testing",
+      "E2E testing automation",
+      "API testing automation",
+      "test generation LLM",
+      "CI workflow automation AI",
+      "browser automation testing AI",
+      "code review test automation",
+      "observability testing automation"
+    ]
+  },
+  "hacker_news": {
+    "enabled": false,
+    "top_stories": 120,
+    "min_score": 5,
+    "keywords": [
+      "ai",
+      "llm",
+      "agent",
+      "rag",
+      "openai",
+      "anthropic",
+      "claude",
+      "chatgpt",
+      "gemini",
+      "copilot",
+      "automation"
+    ]
+  },
+  "rss": {
+    "enabled": false,
+    "feeds": [
+      {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/news/rss.xml",
+        "weight": 1.2
+      },
+      {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "weight": 1.0
+      },
+      {
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "weight": 1.0
+      },
+      {
+        "name": "Planet AI",
+        "url": "https://planet-ai.net/rss.xml",
+        "weight": 0.9
+      }
+    ]
+  },
+  "x": {
+    "enabled": false,
+    "note": "X/Twitter 第一版预留接口。后续可接官方 X API recent search、列表 feed 或自托管 RSS 化服务。"
+  }
+}
