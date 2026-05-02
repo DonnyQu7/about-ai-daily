@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <style>
+    .bg { fill: #f5f7fb; }
+    .panel { fill: #ffffff; stroke: #d9e1ee; stroke-width: 2; }
+    .title { font: 700 52px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #172033; }
+    .sub { font: 400 25px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #667085; }
+    .item-title { font: 700 25px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #172033; }
+    .item-summary { font: 400 21px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #475467; }
+    .score { font: 700 22px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #1d4ed8; text-anchor: end; }
+    .foot { font: 500 22px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #0f766e; }
+  </style>
+  <rect class="bg" width="1080" height="1350"/>
+  <rect class="panel" x="42" y="42" width="996" height="1266" rx="18"/>
+  <text x="70" y="118" class="sub">Software Testing Radar · 2026-05-02</text>
+  <text x="70" y="178" class="title">软件测试与自动化执行流 GitHub 热点日报</text>
+  <text x="70" y="210" class="item-title">1. twinklejoshi/ai-agent-playwright-typescript-temp…</text><text x="70" y="238" class="item-summary">Production-ready Playwright test automation starter for teams and startups:…</text><text x="930" y="210" class="score">评分 10.5</text><text x="70" y="298" class="item-title">2. AvdLee/RocketSimApp</text><text x="70" y="326" class="item-summary">RocketSim — 30+ tools for Xcode&#x27;s iOS Simulator. Testing, debugging, networ…</text><text x="930" y="298" class="score">评分 9.1</text><text x="70" y="386" class="item-title">3. NihadMemmedli/quorvex_ai</text><text x="70" y="414" class="item-summary">Convert plain English test specs into self-healing Playwright tests using A…</text><text x="930" y="386" class="score">评分 8.9</text><text x="70" y="474" class="item-title">4. wu33z/playwright-lab</text><text x="70" y="502" class="item-summary">Scalable E2E test automation framework using Playwright and TypeScript. Fea…</text><text x="930" y="474" class="score">评分 8.7</text><text x="70" y="562" class="item-title">5. microsoft/playwright</text><text x="70" y="590" class="item-summary">Playwright is a framework for Web Testing and Automation. It allows testing…</text><text x="930" y="562" class="score">评分 8.5</text><text x="70" y="650" class="item-title">6. ShaftHQ/SHAFT_ENGINE</text><text x="70" y="678" class="item-summary">SHAFT is a unified test automation engine for web, mobile, API, CLI, databa…</text><text x="930" y="650" class="score">评分 8.4</text>
+  <text x="70" y="1240" class="foot">聚焦 QA 自动化、执行流、E2E/API 测试、工程质量 · HTML 报告可点击跳转 GitHub</text>
+</svg>
