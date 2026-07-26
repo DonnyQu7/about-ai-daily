@@ -1,0 +1,1857 @@
+{
+  "generated_at": "2026-07-26T05:48:22+00:00",
+  "errors": [],
+  "sections": [
+    {
+      "key": "daily",
+      "title": "过去 24 小时 GitHub 热点",
+      "hours": 24,
+      "raw_count": 59,
+      "count": 20,
+      "items": [
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "AvdLee/RocketSimApp",
+          "url": "https://github.com/AvdLee/RocketSimApp",
+          "summary": "RocketSim — 30+ tools for Xcode's iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.",
+          "published_at": "2026-07-25T17:46:08Z",
+          "collected_at": "2026-07-26T05:48:11+00:00",
+          "score": 9.13,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "Swift",
+            "agent",
+            "ai",
+            "automation",
+            "cli",
+            "debugging",
+            "github",
+            "monitoring",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 781,
+            "forks": 35,
+            "open_issues": 211,
+            "language": "Swift",
+            "created_at": "2020-04-26T07:16:14Z",
+            "updated_at": "2026-07-25T22:46:59Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, automation, debugging, monitoring",
+            "AI/Agent 关键词：ai, agent",
+            "可落地工程信号：cli",
+            "软件交付语境：cli",
+            "GitHub 热度加分：2.1",
+            "分类命中：automation"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "ShaftHQ/SHAFT_ENGINE",
+          "url": "https://github.com/ShaftHQ/SHAFT_ENGINE",
+          "summary": "Java test automation framework for web, mobile, API, CLI, database, and desktop E2E testing with a fluent API and built-in reporting.",
+          "published_at": "2026-07-26T04:12:56Z",
+          "collected_at": "2026-07-26T05:48:13+00:00",
+          "score": 8.81,
+          "category": "QA 自动化 / 测试 Agent",
+          "tags": [
+            "Java",
+            "api",
+            "automation",
+            "cli",
+            "e2e",
+            "framework",
+            "github",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 405,
+            "forks": 150,
+            "open_issues": 22,
+            "language": "Java",
+            "created_at": "2018-07-15T07:02:02Z",
+            "updated_at": "2026-07-26T00:28:09Z",
+            "query": "E2E testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, testing, automation, e2e",
+            "可落地工程信号：framework, cli, api",
+            "软件交付语境：api, cli, e2e, test automation",
+            "GitHub 热度加分：2.0",
+            "分类命中：test automation"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "alfredolopez80/multi-agent-ralph-loop",
+          "url": "https://github.com/alfredolopez80/multi-agent-ralph-loop",
+          "summary": "Autonomous orchestration framework for Claude Code with MemPalace-inspired memory (4-layer stack, 818-token wake-up), parallel-first Agent Teams (6 teammates), Aristotle First Principles methodology, and 4-stage quality gates. 925+ tests, 22 active hooks, automatic learning pipeline.",
+          "published_at": "2026-07-26T01:01:45Z",
+          "collected_at": "2026-07-26T05:48:12+00:00",
+          "score": 8.54,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "Shell",
+            "agent",
+            "claude",
+            "framework",
+            "github",
+            "orchestration",
+            "pipeline",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 143,
+            "forks": 21,
+            "open_issues": 1,
+            "language": "Shell",
+            "created_at": "2026-01-02T10:59:29Z",
+            "updated_at": "2026-07-26T01:01:49Z",
+            "query": "test automation agent"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, pipeline, orchestration",
+            "AI/Agent 关键词：agent, claude",
+            "可落地工程信号：framework",
+            "软件交付语境：code, pipeline",
+            "GitHub 热度加分：1.5",
+            "分类命中：orchestration, pipeline"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "trueleaf/apiflow",
+          "url": "https://github.com/trueleaf/apiflow",
+          "summary": "A modern API workspace that works both online and offline — combining API documentation, testing, mock, and AI-powered automation in one lightweight tool",
+          "published_at": "2026-07-26T02:41:00Z",
+          "collected_at": "2026-07-26T05:48:11+00:00",
+          "score": 8.39,
+          "category": "API / 接口测试与 Mock",
+          "tags": [
+            "TypeScript",
+            "ai",
+            "api",
+            "automation",
+            "github",
+            "mock",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 618,
+            "forks": 101,
+            "open_issues": 10,
+            "language": "TypeScript",
+            "created_at": "2020-10-04T13:48:53Z",
+            "updated_at": "2026-07-26T02:37:43Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, automation, mock",
+            "AI/Agent 关键词：ai",
+            "可落地工程信号：api",
+            "软件交付语境：api",
+            "GitHub 热度加分：2.0",
+            "分类命中：mock"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "mhattingpete/claude-skills-marketplace",
+          "url": "https://github.com/mhattingpete/claude-skills-marketplace",
+          "summary": "Claude Code Skills for software engineering workflows - Git automation, testing, and code review",
+          "published_at": "2026-07-25T06:09:24Z",
+          "collected_at": "2026-07-26T05:48:15+00:00",
+          "score": 8.15,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "HTML",
+            "automation",
+            "claude",
+            "code review",
+            "github",
+            "testing",
+            "workflows"
+          ],
+          "metrics": {
+            "stars": 657,
+            "forks": 91,
+            "open_issues": 3,
+            "language": "HTML",
+            "created_at": "2025-10-17T12:02:19Z",
+            "updated_at": "2026-07-25T20:02:56Z",
+            "query": "code review test automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, automation, workflows, code review",
+            "AI/Agent 关键词：claude",
+            "软件交付语境：software, code",
+            "GitHub 热度加分：2.0",
+            "分类命中：workflows, automation"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "PramodDutta/qaskills",
+          "url": "https://github.com/PramodDutta/qaskills",
+          "summary": "QA Skills Directory QA Skills is a curated directory of testing-specific skills for AI coding agents (Claude Code, Cursor, Copilot, etc.).",
+          "published_at": "2026-07-25T02:27:56Z",
+          "collected_at": "2026-07-26T05:48:13+00:00",
+          "score": 8.13,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "TypeScript",
+            "agents",
+            "ai",
+            "claude",
+            "github",
+            "qa",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 185,
+            "forks": 19,
+            "open_issues": 4,
+            "language": "TypeScript",
+            "created_at": "2026-02-11T05:49:51Z",
+            "updated_at": "2026-07-25T15:19:22Z",
+            "query": "Playwright AI testing"
+          },
+          "reason": [
+            "测试/工程自动化关键词：qa, testing",
+            "AI/Agent 关键词：ai, agents, claude, copilot",
+            "软件交付语境：code, coding, qa",
+            "GitHub 热度加分：1.6",
+            "分类命中：ai, claude, copilot"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "tugkanboz/awesome-ai-testing",
+          "url": "https://github.com/tugkanboz/awesome-ai-testing",
+          "summary": "A curated list of AI-powered testing tools, frameworks, and resources for QA engineers. From test generation to self-healing automation, MCP-based testing, LLM evaluation, and more.",
+          "published_at": "2026-07-25T11:44:45Z",
+          "collected_at": "2026-07-26T05:48:11+00:00",
+          "score": 7.98,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "ai",
+            "automation",
+            "github",
+            "llm",
+            "mcp",
+            "qa",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 38,
+            "forks": 21,
+            "open_issues": 21,
+            "language": null,
+            "created_at": "2026-05-02T11:20:21Z",
+            "updated_at": "2026-07-25T11:46:00Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：qa, test, testing, automation",
+            "AI/Agent 关键词：ai, llm, mcp",
+            "软件交付语境：qa",
+            "GitHub 热度加分：1.3",
+            "分类命中：test generation, llm, ai"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "open-gsd/gsd-browser",
+          "url": "https://github.com/open-gsd/gsd-browser",
+          "summary": "A fast, native browser automation CLI built from the ground up for AI agents, powered by Chrome DevTools Protocol. 63 commands covering navigation, interaction, screenshots, accessibility, network mocking, visual diffing, test generation, and more — all from a single binary.",
+          "published_at": "2026-07-25T18:52:39Z",
+          "collected_at": "2026-07-26T05:48:11+00:00",
+          "score": 7.83,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "Rust",
+            "agents",
+            "ai",
+            "automation",
+            "browser automation",
+            "cli",
+            "github",
+            "test"
+          ],
+          "metrics": {
+            "stars": 32,
+            "forks": 4,
+            "open_issues": 0,
+            "language": "Rust",
+            "created_at": "2026-05-29T10:55:00Z",
+            "updated_at": "2026-07-25T18:52:43Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, automation, browser automation",
+            "AI/Agent 关键词：ai, agents",
+            "可落地工程信号：cli",
+            "软件交付语境：cli",
+            "GitHub 热度加分：1.0",
+            "分类命中：test generation, ai"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "DataficationSDK/Motus",
+          "url": "https://github.com/DataficationSDK/Motus",
+          "summary": "Extensible browser automation and testing framework for .NET. Communicates directly with Chromium (CDP) and Firefox (WebDriver BiDi) over WebSocket, no Node.js dependency. Source generated protocol bindings, Roslyn analyzers, a test recorder, a Blazor visual runner, and an MCP server for AI agents, all built on public plugin interfaces.",
+          "published_at": "2026-07-25T14:10:02Z",
+          "collected_at": "2026-07-26T05:48:11+00:00",
+          "score": 7.48,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "C#",
+            "agents",
+            "ai",
+            "automation",
+            "framework",
+            "github",
+            "mcp",
+            "plugin",
+            "runner",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 15,
+            "forks": 3,
+            "open_issues": 0,
+            "language": "C#",
+            "created_at": "2026-03-11T22:44:52Z",
+            "updated_at": "2026-07-25T14:10:14Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, testing, automation, runner, browser automation",
+            "AI/Agent 关键词：ai, agents, mcp",
+            "可落地工程信号：framework, plugin",
+            "缺少软件交付/测试工程语境",
+            "GitHub 热度加分：0.8",
+            "分类命中：runner, automation, mcp"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "aiqualitylab/ai-natural-language-tests",
+          "url": "https://github.com/aiqualitylab/ai-natural-language-tests",
+          "summary": "Enterprise-grade platform to generate and execute Cypress, Playwright, WebdriverIO, and Appium end-to-end tests from natural language requirements. (Appium is experimental and requires external mobile infrastructure.)",
+          "published_at": "2026-07-25T22:56:52Z",
+          "collected_at": "2026-07-26T05:48:13+00:00",
+          "score": 7.42,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "Python",
+            "ai",
+            "cypress",
+            "end-to-end",
+            "github",
+            "playwright",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 22,
+            "forks": 7,
+            "open_issues": 7,
+            "language": "Python",
+            "created_at": "2025-12-10T15:50:17Z",
+            "updated_at": "2026-07-25T22:56:56Z",
+            "query": "Playwright AI testing"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, playwright, cypress, end-to-end",
+            "AI/Agent 关键词：ai",
+            "软件交付语境：playwright, cypress",
+            "GitHub 热度加分：1.0",
+            "分类命中：end-to-end, playwright, cypress"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "testcontainers/testcontainers-go",
+          "url": "https://github.com/testcontainers/testcontainers-go",
+          "summary": "Testcontainers for Go is a Go package that makes it simple to create and clean up container-based dependencies for automated integration/smoke tests. The clean, easy-to-use API enables developers to programmatically define containers that should be run as part of a test and clean up those resources when the test is done.",
+          "published_at": "2026-07-25T05:03:06Z",
+          "collected_at": "2026-07-26T05:48:14+00:00",
+          "score": 7.4,
+          "category": "开发者效率自动化",
+          "tags": [
+            "Go",
+            "api",
+            "github",
+            "integration",
+            "test",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 4931,
+            "forks": 623,
+            "open_issues": 170,
+            "language": "Go",
+            "created_at": "2018-07-18T15:04:31Z",
+            "updated_at": "2026-07-26T00:12:47Z",
+            "query": "API testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, tests",
+            "可落地工程信号：api, integration",
+            "软件交付语境：api",
+            "GitHub 热度加分：2.5"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "playwright-php/playwright",
+          "url": "https://github.com/playwright-php/playwright",
+          "summary": "Playwright PHP library for browser automation: navigation, E2E tests, assertions, screenshots, and so much more!",
+          "published_at": "2026-07-25T16:21:50Z",
+          "collected_at": "2026-07-26T05:48:13+00:00",
+          "score": 7.38,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "PHP",
+            "automation",
+            "e2e",
+            "github",
+            "playwright",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 204,
+            "forks": 17,
+            "open_issues": 10,
+            "language": "PHP",
+            "created_at": "2025-08-20T19:20:42Z",
+            "updated_at": "2026-07-25T16:20:50Z",
+            "query": "E2E testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, automation, playwright, e2e, browser automation",
+            "软件交付语境：playwright, e2e",
+            "GitHub 热度加分：1.6",
+            "分类命中：e2e, playwright, browser automation"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "erikunha/portfolio",
+          "url": "https://github.com/erikunha/portfolio",
+          "summary": "Personal portfolio built with Next.js 16 (App Router, RSC-first), React 19, TypeScript, and Tailwind v4. Features a streaming AI endpoint (Anthropic Haiku via Vercel AI Gateway), Upstash Redis rate limiting, Resend contact form, Playwright E2E + Vitest tests, Lighthouse CI gates, and an MCP server. Deployed to Vercel (Fluid Compute).",
+          "published_at": "2026-07-26T05:06:14Z",
+          "collected_at": "2026-07-26T05:48:13+00:00",
+          "score": 7.34,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "TypeScript",
+            "ai",
+            "ci",
+            "e2e",
+            "github",
+            "mcp",
+            "playwright",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 14,
+            "forks": 1,
+            "open_issues": 1,
+            "language": "TypeScript",
+            "created_at": "2023-05-23T03:04:58Z",
+            "updated_at": "2026-07-26T01:30:39Z",
+            "query": "Playwright AI testing"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, ci, playwright, e2e",
+            "AI/Agent 关键词：ai, mcp",
+            "软件交付语境：ci, playwright, e2e",
+            "GitHub 热度加分：0.7",
+            "分类命中：e2e, playwright"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "harumiWeb/xlflow",
+          "url": "https://github.com/harumiWeb/xlflow",
+          "summary": "AI-Agent-ready CLI framework for editing, testing, running, tracing, and diffing Excel VBA projects.",
+          "published_at": "2026-07-26T05:45:52Z",
+          "collected_at": "2026-07-26T05:48:11+00:00",
+          "score": 7.24,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "Go",
+            "agent",
+            "ai",
+            "cli",
+            "framework",
+            "github",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 47,
+            "forks": 5,
+            "open_issues": 11,
+            "language": "Go",
+            "created_at": "2026-04-30T11:55:14Z",
+            "updated_at": "2026-07-26T05:45:56Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing",
+            "AI/Agent 关键词：ai, agent",
+            "可落地工程信号：framework, cli",
+            "软件交付语境：cli",
+            "GitHub 热度加分：1.2",
+            "分类命中：ai"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "cloudposse/atmos",
+          "url": "https://github.com/cloudposse/atmos",
+          "summary": "Atmos is the open-source runtime for infrastructure — it builds, authenticates, and ships Terraform, OpenTofu, Kubernetes, Helm, and containers the same way on your laptop, in CI, and with AI agents.",
+          "published_at": "2026-07-26T04:02:55Z",
+          "collected_at": "2026-07-26T05:48:14+00:00",
+          "score": 7.16,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "Go",
+            "agents",
+            "ai",
+            "ci",
+            "github"
+          ],
+          "metrics": {
+            "stars": 1341,
+            "forks": 173,
+            "open_issues": 283,
+            "language": "Go",
+            "created_at": "2020-09-03T00:46:14Z",
+            "updated_at": "2026-07-26T03:55:16Z",
+            "query": "CI workflow automation AI"
+          },
+          "reason": [
+            "测试/工程自动化关键词：ci",
+            "AI/Agent 关键词：ai, agents",
+            "软件交付语境：ci",
+            "GitHub 热度加分：2.4",
+            "分类命中：ci"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "puppeteer/puppeteer",
+          "url": "https://github.com/puppeteer/puppeteer",
+          "summary": "JavaScript API for Chrome and Firefox",
+          "published_at": "2026-07-26T02:05:22Z",
+          "collected_at": "2026-07-26T05:48:14+00:00",
+          "score": 7.0,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "TypeScript",
+            "api",
+            "github",
+            "puppeteer"
+          ],
+          "metrics": {
+            "stars": 95355,
+            "forks": 9556,
+            "open_issues": 280,
+            "language": "TypeScript",
+            "created_at": "2017-05-09T22:16:13Z",
+            "updated_at": "2026-07-26T05:25:20Z",
+            "query": "API testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：puppeteer",
+            "可落地工程信号：api",
+            "软件交付语境：api",
+            "GitHub 热度加分：2.5",
+            "分类命中：puppeteer"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "fugazi/test-automation-skills-agents",
+          "url": "https://github.com/fugazi/test-automation-skills-agents",
+          "summary": "A practical library of agents, instructions, and skills designed specifically for QA Automation Engineers, focusing on production-oriented solutions.",
+          "published_at": "2026-07-26T02:18:56Z",
+          "collected_at": "2026-07-26T05:48:12+00:00",
+          "score": 6.88,
+          "category": "QA 自动化 / 测试 Agent",
+          "tags": [
+            "Java",
+            "agents",
+            "automation",
+            "github",
+            "qa",
+            "test"
+          ],
+          "metrics": {
+            "stars": 202,
+            "forks": 36,
+            "open_issues": 0,
+            "language": "Java",
+            "created_at": "2026-02-09T23:04:19Z",
+            "updated_at": "2026-07-26T02:17:04Z",
+            "query": "AI QA automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：qa, test, automation",
+            "AI/Agent 关键词：agents",
+            "软件交付语境：qa",
+            "GitHub 热度加分：1.6",
+            "分类命中：qa"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "vishalquantana/klavity",
+          "url": "https://github.com/vishalquantana/klavity",
+          "summary": "Open-core AI bug reporting & testing — right-click to file grounded bugs to Jira/Linear/GitHub/Plane, AI personas (Sims) that review your product, and self-healing end-to-end tests.",
+          "published_at": "2026-07-26T03:32:50Z",
+          "collected_at": "2026-07-26T05:48:13+00:00",
+          "score": 6.17,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "TypeScript",
+            "ai",
+            "bug",
+            "end-to-end",
+            "github",
+            "testing",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 6,
+            "forks": 0,
+            "open_issues": 0,
+            "language": "TypeScript",
+            "created_at": "2026-06-14T20:24:10Z",
+            "updated_at": "2026-07-26T03:32:53Z",
+            "query": "Playwright AI testing"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, testing, end-to-end, bug",
+            "AI/Agent 关键词：ai",
+            "软件交付语境：github",
+            "GitHub 热度加分：0.5",
+            "分类命中：end-to-end"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "Etoileint/AstroProject",
+          "url": "https://github.com/Etoileint/AstroProject",
+          "summary": "Async web crawler powered by Playwright headless Chromium — JavaScript rendering, AI-powered extraction (OpenAI / Anthropic / Google), CSS rule engine with visual preview, and a full PySide6 desktop GUI. SQLite WAL crash recovery, proxy circuit breaker, RFC 9309 robots.txt, ReDoS-immune regex, 3,822 tests. pip install astrocrawl[full,gui,fast].",
+          "published_at": "2026-07-26T01:58:18Z",
+          "collected_at": "2026-07-26T05:48:13+00:00",
+          "score": 5.74,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "Python",
+            "ai",
+            "github",
+            "openai",
+            "playwright",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 8,
+            "forks": 0,
+            "open_issues": 3,
+            "language": "Python",
+            "created_at": "2026-07-01T03:06:24Z",
+            "updated_at": "2026-07-25T19:13:19Z",
+            "query": "Playwright AI testing"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, playwright",
+            "AI/Agent 关键词：ai, openai",
+            "软件交付语境：playwright",
+            "GitHub 热度加分：0.6",
+            "分类命中：playwright"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "sophonfinance-wq/finance-automation-portfolio",
+          "url": "https://github.com/sophonfinance-wq/finance-automation-portfolio",
+          "summary": "Forty-seven runnable Python systems for finance & tax — month-end close, cash & debt reconciliation, partnership 1065/§704(c), cross-border surplus & ACB, read-only validation, Triangulate multi-agent AI review, and a knowledge brain. Human-gated, fictional data, 463,860 tests (31,883 behaviour + invariant grids), CI-backed, MIT.",
+          "published_at": "2026-07-26T04:18:35Z",
+          "collected_at": "2026-07-26T05:48:11+00:00",
+          "score": 5.45,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "Python",
+            "agent",
+            "ai",
+            "automation",
+            "ci",
+            "github",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 7,
+            "forks": 1,
+            "open_issues": 7,
+            "language": "Python",
+            "created_at": "2026-06-14T18:32:39Z",
+            "updated_at": "2026-07-26T04:18:40Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, automation, ci",
+            "AI/Agent 关键词：ai, agent",
+            "软件交付语境：ci",
+            "含弱相关业务语境：finance",
+            "GitHub 热度加分：0.6",
+            "分类命中：ci, automation"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weekly",
+      "title": "过去 7 天 GitHub 热点",
+      "hours": 168,
+      "raw_count": 150,
+      "count": 30,
+      "items": [
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "AvdLee/RocketSimApp",
+          "url": "https://github.com/AvdLee/RocketSimApp",
+          "summary": "RocketSim — 30+ tools for Xcode's iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.",
+          "published_at": "2026-07-25T17:46:08Z",
+          "collected_at": "2026-07-26T05:48:16+00:00",
+          "score": 9.13,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "Swift",
+            "agent",
+            "ai",
+            "automation",
+            "cli",
+            "debugging",
+            "github",
+            "monitoring",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 781,
+            "forks": 35,
+            "open_issues": 211,
+            "language": "Swift",
+            "created_at": "2020-04-26T07:16:14Z",
+            "updated_at": "2026-07-25T22:46:59Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, automation, debugging, monitoring",
+            "AI/Agent 关键词：ai, agent",
+            "可落地工程信号：cli",
+            "软件交付语境：cli",
+            "GitHub 热度加分：2.1",
+            "分类命中：automation"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "darrenhinde/OpenAgentsControl",
+          "url": "https://github.com/darrenhinde/OpenAgentsControl",
+          "summary": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
+          "published_at": "2026-07-21T22:24:58Z",
+          "collected_at": "2026-07-26T05:48:16+00:00",
+          "score": 9.1,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "TypeScript",
+            "agent",
+            "ai",
+            "code review",
+            "framework",
+            "github",
+            "testing",
+            "workflows"
+          ],
+          "metrics": {
+            "stars": 4632,
+            "forks": 371,
+            "open_issues": 54,
+            "language": "TypeScript",
+            "created_at": "2025-08-14T21:44:01Z",
+            "updated_at": "2026-07-26T05:37:38Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, workflows, code review",
+            "AI/Agent 关键词：ai, agent",
+            "可落地工程信号：framework",
+            "软件交付语境：code",
+            "GitHub 热度加分：2.5",
+            "分类命中：workflows"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "qawolf/cli",
+          "url": "https://github.com/qawolf/cli",
+          "summary": "QA Wolf from anywhere — your terminal, your CI, your AI agent.",
+          "published_at": "2026-07-23T13:23:47Z",
+          "collected_at": "2026-07-26T05:48:16+00:00",
+          "score": 9.06,
+          "category": "QA 自动化 / 测试 Agent",
+          "tags": [
+            "TypeScript",
+            "agent",
+            "ai",
+            "ci",
+            "cli",
+            "github",
+            "qa"
+          ],
+          "metrics": {
+            "stars": 3439,
+            "forks": 139,
+            "open_issues": 6,
+            "language": "TypeScript",
+            "created_at": "2019-09-17T20:45:48Z",
+            "updated_at": "2026-07-25T01:59:38Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：qa, ci",
+            "AI/Agent 关键词：ai, agent",
+            "可落地工程信号：cli",
+            "软件交付语境：cli, ci, qa",
+            "GitHub 热度加分：2.5",
+            "分类命中：qa"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "Abdelrhman-Ellithy/Ellithium",
+          "url": "https://github.com/Abdelrhman-Ellithy/Ellithium",
+          "summary": "Ellithium is a AI Powered Unified powerful, flexible Test Automation Framework for Web, Mobile, API, SQL, No SQL DB Testing, designed to enhance the testing process. it provides an end-to-end solution for automated testing. With support for BDD, Self Healing , Embedded AI Model, LLM integration, and Code Generator, Natural Language to Test Scripts",
+          "published_at": "2026-07-24T13:51:26Z",
+          "collected_at": "2026-07-26T05:48:20+00:00",
+          "score": 9.03,
+          "category": "QA 自动化 / 测试 Agent",
+          "tags": [
+            "Java",
+            "ai",
+            "api",
+            "automation",
+            "end-to-end",
+            "framework",
+            "github",
+            "integration",
+            "llm",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 31,
+            "forks": 0,
+            "open_issues": 2,
+            "language": "Java",
+            "created_at": "2024-09-06T12:18:35Z",
+            "updated_at": "2026-07-24T13:53:07Z",
+            "query": "API testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, testing, automation, end-to-end",
+            "AI/Agent 关键词：ai, llm",
+            "可落地工程信号：framework, api, integration",
+            "软件交付语境：code, api, test automation",
+            "GitHub 热度加分：0.9",
+            "分类命中：test automation, automated testing"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "existential-birds/beagle",
+          "url": "https://github.com/existential-birds/beagle",
+          "summary": "Agent Skills marketplace: framework-aware skills for code review, documentation, test-plan generation, AI-writing detection, architectural analysis, and git workflows — for Python, Go, Rust, Elixir, React, Remix, and iOS/Swift. Works with Claude Code, Codex, and any agent that supports Agent Skills.",
+          "published_at": "2026-07-21T12:02:47Z",
+          "collected_at": "2026-07-26T05:48:20+00:00",
+          "score": 8.9,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "TypeScript",
+            "agent",
+            "ai",
+            "claude",
+            "code review",
+            "framework",
+            "github",
+            "test",
+            "workflows"
+          ],
+          "metrics": {
+            "stars": 73,
+            "forks": 10,
+            "open_issues": 3,
+            "language": "TypeScript",
+            "created_at": "2025-12-21T15:44:12Z",
+            "updated_at": "2026-07-19T17:12:45Z",
+            "query": "test generation LLM"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, workflows, code review",
+            "AI/Agent 关键词：ai, agent, claude, codex",
+            "可落地工程信号：framework",
+            "软件交付语境：code",
+            "GitHub 热度加分：1.3",
+            "分类命中：ai, claude, codex"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "ShaftHQ/SHAFT_ENGINE",
+          "url": "https://github.com/ShaftHQ/SHAFT_ENGINE",
+          "summary": "Java test automation framework for web, mobile, API, CLI, database, and desktop E2E testing with a fluent API and built-in reporting.",
+          "published_at": "2026-07-26T04:12:56Z",
+          "collected_at": "2026-07-26T05:48:19+00:00",
+          "score": 8.81,
+          "category": "QA 自动化 / 测试 Agent",
+          "tags": [
+            "Java",
+            "api",
+            "automation",
+            "cli",
+            "e2e",
+            "framework",
+            "github",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 405,
+            "forks": 150,
+            "open_issues": 22,
+            "language": "Java",
+            "created_at": "2018-07-15T07:02:02Z",
+            "updated_at": "2026-07-26T00:28:09Z",
+            "query": "E2E testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, testing, automation, e2e",
+            "可落地工程信号：framework, cli, api",
+            "软件交付语境：api, cli, e2e, test automation",
+            "GitHub 热度加分：2.0",
+            "分类命中：test automation"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "test-zeus-ai/testzeus-hercules",
+          "url": "https://github.com/test-zeus-ai/testzeus-hercules",
+          "summary": "Hercules is the world’s first open-source testing agent, enabling UI, API, Security, Accessibility, and Visual validations – all without code or maintenance. Automate testing effortlessly and let Hercules handle the heavy lifting! ⚡",
+          "published_at": "2026-07-20T14:03:39Z",
+          "collected_at": "2026-07-26T05:48:16+00:00",
+          "score": 8.67,
+          "category": "QA 自动化 / 测试 Agent",
+          "tags": [
+            "Python",
+            "agent",
+            "ai",
+            "api",
+            "github",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 1086,
+            "forks": 174,
+            "open_issues": 33,
+            "language": "Python",
+            "created_at": "2024-11-14T21:19:10Z",
+            "updated_at": "2026-07-26T04:50:27Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, testing",
+            "AI/Agent 关键词：ai, agent",
+            "可落地工程信号：api",
+            "软件交付语境：code, api",
+            "GitHub 热度加分：2.3",
+            "分类命中：testing agent"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "alfredolopez80/multi-agent-ralph-loop",
+          "url": "https://github.com/alfredolopez80/multi-agent-ralph-loop",
+          "summary": "Autonomous orchestration framework for Claude Code with MemPalace-inspired memory (4-layer stack, 818-token wake-up), parallel-first Agent Teams (6 teammates), Aristotle First Principles methodology, and 4-stage quality gates. 925+ tests, 22 active hooks, automatic learning pipeline.",
+          "published_at": "2026-07-26T01:01:45Z",
+          "collected_at": "2026-07-26T05:48:17+00:00",
+          "score": 8.54,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "Shell",
+            "agent",
+            "claude",
+            "framework",
+            "github",
+            "orchestration",
+            "pipeline",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 143,
+            "forks": 21,
+            "open_issues": 1,
+            "language": "Shell",
+            "created_at": "2026-01-02T10:59:29Z",
+            "updated_at": "2026-07-26T01:01:49Z",
+            "query": "test automation agent"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, pipeline, orchestration",
+            "AI/Agent 关键词：agent, claude",
+            "可落地工程信号：framework",
+            "软件交付语境：code, pipeline",
+            "GitHub 热度加分：1.5",
+            "分类命中：orchestration, pipeline"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "microsoft/playwright",
+          "url": "https://github.com/microsoft/playwright",
+          "summary": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+          "published_at": "2026-07-24T22:26:49Z",
+          "collected_at": "2026-07-26T05:48:20+00:00",
+          "score": 8.5,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "TypeScript",
+            "api",
+            "automation",
+            "framework",
+            "github",
+            "playwright",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 93463,
+            "forks": 6151,
+            "open_issues": 159,
+            "language": "TypeScript",
+            "created_at": "2019-11-15T18:32:42Z",
+            "updated_at": "2026-07-26T04:41:56Z",
+            "query": "API testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, automation, playwright",
+            "可落地工程信号：framework, api",
+            "软件交付语境：api, playwright",
+            "GitHub 热度加分：2.5",
+            "分类命中：playwright, web testing"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "trueleaf/apiflow",
+          "url": "https://github.com/trueleaf/apiflow",
+          "summary": "A modern API workspace that works both online and offline — combining API documentation, testing, mock, and AI-powered automation in one lightweight tool",
+          "published_at": "2026-07-26T02:41:00Z",
+          "collected_at": "2026-07-26T05:48:16+00:00",
+          "score": 8.39,
+          "category": "API / 接口测试与 Mock",
+          "tags": [
+            "TypeScript",
+            "ai",
+            "api",
+            "automation",
+            "github",
+            "mock",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 618,
+            "forks": 101,
+            "open_issues": 10,
+            "language": "TypeScript",
+            "created_at": "2020-10-04T13:48:53Z",
+            "updated_at": "2026-07-26T02:37:43Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, automation, mock",
+            "AI/Agent 关键词：ai",
+            "可落地工程信号：api",
+            "软件交付语境：api",
+            "GitHub 热度加分：2.0",
+            "分类命中：mock"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "ai-dashboad/flutter-skill",
+          "url": "https://github.com/ai-dashboad/flutter-skill",
+          "summary": "AI-powered E2E testing for 10 platforms. 253 MCP tools. Zero config. Works with Claude, Cursor, Windsurf, Copilot. Test Flutter, React Native, iOS, Android, Web, Electron, Tauri, KMP, .NET MAUI — all from natural language.",
+          "published_at": "2026-07-23T22:28:35Z",
+          "collected_at": "2026-07-26T05:48:16+00:00",
+          "score": 8.35,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "Dart",
+            "ai",
+            "claude",
+            "e2e",
+            "github",
+            "mcp",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 333,
+            "forks": 45,
+            "open_issues": 5,
+            "language": "Dart",
+            "created_at": "2026-01-29T20:55:29Z",
+            "updated_at": "2026-07-25T11:38:35Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, testing, e2e",
+            "AI/Agent 关键词：ai, mcp, claude, copilot",
+            "软件交付语境：e2e",
+            "GitHub 热度加分：1.8",
+            "分类命中：ai, claude, copilot"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "jacopone/code-cursor-nix",
+          "url": "https://github.com/jacopone/code-cursor-nix",
+          "summary": "Auto-updating Nix package for Cursor AI editor with browser automation (Playwright/Puppeteer/Selenium). Updates 3x/week. Chrome bundled for NixOS testing.",
+          "published_at": "2026-07-24T09:51:48Z",
+          "collected_at": "2026-07-26T05:48:21+00:00",
+          "score": 8.28,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "Shell",
+            "ai",
+            "automation",
+            "github",
+            "playwright",
+            "selenium",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 6,
+            "forks": 3,
+            "open_issues": 2,
+            "language": "Shell",
+            "created_at": "2025-10-01T01:42:15Z",
+            "updated_at": "2026-07-24T09:53:02Z",
+            "query": "browser automation testing AI"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, automation, playwright, selenium, puppeteer, browser automation",
+            "AI/Agent 关键词：ai",
+            "软件交付语境：code, playwright, selenium",
+            "GitHub 热度加分：0.6",
+            "分类命中：playwright, selenium, browser automation, puppeteer"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "upex-galaxy/agentic-qa-boilerplate",
+          "url": "https://github.com/upex-galaxy/agentic-qa-boilerplate",
+          "summary": "Agentic QA boilerplate built on Playwright + KATA + TypeScript. Multi-agent skills following the agentskills.io spec, orchestrating the full QA lifecycle: shift-left planning, in-sprint testing, TMS documentation with ROI scoring, KATA automation, and regression with GO/NO-GO. Works across Claude Code, Opencode, etc.",
+          "published_at": "2026-07-24T17:00:04Z",
+          "collected_at": "2026-07-26T05:48:17+00:00",
+          "score": 8.2,
+          "category": "QA 自动化 / 测试 Agent",
+          "tags": [
+            "HTML",
+            "agent",
+            "agentic",
+            "automation",
+            "claude",
+            "github",
+            "playwright",
+            "qa",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 19,
+            "forks": 9,
+            "open_issues": 1,
+            "language": "HTML",
+            "created_at": "2026-04-15T07:03:53Z",
+            "updated_at": "2026-07-24T17:00:19Z",
+            "query": "test automation agent"
+          },
+          "reason": [
+            "测试/工程自动化关键词：qa, testing, automation, playwright, regression",
+            "AI/Agent 关键词：agent, agentic, claude",
+            "软件交付语境：code, playwright, qa",
+            "GitHub 热度加分：0.9",
+            "分类命中：qa, regression"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "mhattingpete/claude-skills-marketplace",
+          "url": "https://github.com/mhattingpete/claude-skills-marketplace",
+          "summary": "Claude Code Skills for software engineering workflows - Git automation, testing, and code review",
+          "published_at": "2026-07-25T06:09:24Z",
+          "collected_at": "2026-07-26T05:48:21+00:00",
+          "score": 8.15,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "HTML",
+            "automation",
+            "claude",
+            "code review",
+            "github",
+            "testing",
+            "workflows"
+          ],
+          "metrics": {
+            "stars": 657,
+            "forks": 91,
+            "open_issues": 3,
+            "language": "HTML",
+            "created_at": "2025-10-17T12:02:19Z",
+            "updated_at": "2026-07-25T20:02:56Z",
+            "query": "code review test automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, automation, workflows, code review",
+            "AI/Agent 关键词：claude",
+            "软件交付语境：software, code",
+            "GitHub 热度加分：2.0",
+            "分类命中：workflows, automation"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "Blockether/spel",
+          "url": "https://github.com/Blockether/spel",
+          "summary": "Idiomatic Clojure wrapper for Playwright. Browser automation, API testing, Allure reporting, and native CLI - for Chromium, Firefox, and WebKit",
+          "published_at": "2026-07-20T19:51:55Z",
+          "collected_at": "2026-07-26T05:48:18+00:00",
+          "score": 8.13,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "Clojure",
+            "api",
+            "automation",
+            "browser automation",
+            "cli",
+            "github",
+            "playwright",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 63,
+            "forks": 1,
+            "open_issues": 5,
+            "language": "Clojure",
+            "created_at": "2026-02-13T09:18:26Z",
+            "updated_at": "2026-07-23T08:43:44Z",
+            "query": "Playwright AI testing"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, automation, playwright, browser automation, api testing",
+            "可落地工程信号：cli, api",
+            "软件交付语境：api, cli, playwright",
+            "GitHub 热度加分：1.1",
+            "分类命中：playwright, browser automation"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "PramodDutta/qaskills",
+          "url": "https://github.com/PramodDutta/qaskills",
+          "summary": "QA Skills Directory QA Skills is a curated directory of testing-specific skills for AI coding agents (Claude Code, Cursor, Copilot, etc.).",
+          "published_at": "2026-07-25T02:27:56Z",
+          "collected_at": "2026-07-26T05:48:18+00:00",
+          "score": 8.13,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "TypeScript",
+            "agents",
+            "ai",
+            "claude",
+            "github",
+            "qa",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 185,
+            "forks": 19,
+            "open_issues": 4,
+            "language": "TypeScript",
+            "created_at": "2026-02-11T05:49:51Z",
+            "updated_at": "2026-07-25T15:19:22Z",
+            "query": "Playwright AI testing"
+          },
+          "reason": [
+            "测试/工程自动化关键词：qa, testing",
+            "AI/Agent 关键词：ai, agents, claude, copilot",
+            "软件交付语境：code, coding, qa",
+            "GitHub 热度加分：1.6",
+            "分类命中：ai, claude, copilot"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "wislertt/leetcode-py",
+          "url": "https://github.com/wislertt/leetcode-py",
+          "summary": "Python LeetCode practice environment with automated problem generation, data structure visualizations, and comprehensive testing. Includes all Grind 75, partial Blind, Neetcode and Algomaster problems with enhanced TreeNode/ListNode helpers, CI/CD pipeline, and LLM-assisted problem creation.",
+          "published_at": "2026-07-24T21:05:10Z",
+          "collected_at": "2026-07-26T05:48:20+00:00",
+          "score": 8.1,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "Python",
+            "cd",
+            "ci",
+            "github",
+            "llm",
+            "pipeline",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 134,
+            "forks": 17,
+            "open_issues": 5,
+            "language": "Python",
+            "created_at": "2025-08-28T11:21:53Z",
+            "updated_at": "2026-07-24T22:10:30Z",
+            "query": "test generation LLM"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing, pipeline, ci, cd",
+            "AI/Agent 关键词：llm",
+            "软件交付语境：ci, cd, pipeline",
+            "GitHub 热度加分：1.5",
+            "分类命中：pipeline, ci, cd"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "TestSprite/testsprite-cli",
+          "url": "https://github.com/TestSprite/testsprite-cli",
+          "summary": "Official TestSprite CLI — AI-powered automated testing from your terminal",
+          "published_at": "2026-07-23T23:24:10Z",
+          "collected_at": "2026-07-26T05:48:18+00:00",
+          "score": 8.0,
+          "category": "QA 自动化 / 测试 Agent",
+          "tags": [
+            "TypeScript",
+            "ai",
+            "cli",
+            "github",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 2539,
+            "forks": 110,
+            "open_issues": 45,
+            "language": "TypeScript",
+            "created_at": "2026-06-11T10:44:15Z",
+            "updated_at": "2026-07-26T05:46:37Z",
+            "query": "Playwright AI testing"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing",
+            "AI/Agent 关键词：ai",
+            "可落地工程信号：cli",
+            "软件交付语境：cli",
+            "GitHub 热度加分：2.4",
+            "分类命中：automated testing"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "tugkanboz/awesome-ai-testing",
+          "url": "https://github.com/tugkanboz/awesome-ai-testing",
+          "summary": "A curated list of AI-powered testing tools, frameworks, and resources for QA engineers. From test generation to self-healing automation, MCP-based testing, LLM evaluation, and more.",
+          "published_at": "2026-07-25T11:44:45Z",
+          "collected_at": "2026-07-26T05:48:16+00:00",
+          "score": 7.98,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "ai",
+            "automation",
+            "github",
+            "llm",
+            "mcp",
+            "qa",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 38,
+            "forks": 21,
+            "open_issues": 21,
+            "language": null,
+            "created_at": "2026-05-02T11:20:21Z",
+            "updated_at": "2026-07-25T11:46:00Z",
+            "query": "AI QA automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：qa, test, testing, automation",
+            "AI/Agent 关键词：ai, llm, mcp",
+            "软件交付语境：qa",
+            "GitHub 热度加分：1.3",
+            "分类命中：test generation, llm, ai"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "arpitg1304/robotics-agent-skills",
+          "url": "https://github.com/arpitg1304/robotics-agent-skills",
+          "summary": "Agent skills that make AI coding assistants write production-grade robotics software. ROS1, ROS2, design patterns, SOLID principles, and testing — for Claude Code, Cursor, Copilot, and any SKILL.md-compatible agent.",
+          "published_at": "2026-07-21T18:12:00Z",
+          "collected_at": "2026-07-26T05:48:17+00:00",
+          "score": 7.95,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "Python",
+            "agent",
+            "ai",
+            "claude",
+            "github",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 324,
+            "forks": 45,
+            "open_issues": 7,
+            "language": "Python",
+            "created_at": "2026-02-26T14:02:32Z",
+            "updated_at": "2026-07-26T04:10:27Z",
+            "query": "software testing agent"
+          },
+          "reason": [
+            "测试/工程自动化关键词：testing",
+            "AI/Agent 关键词：ai, agent, claude, copilot",
+            "软件交付语境：software, code, coding",
+            "GitHub 热度加分：1.8",
+            "分类命中：ai, claude, copilot"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "DataTalksClub/ai-dev-tools-zoomcamp",
+          "url": "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp",
+          "summary": "A free, hands-on course on using AI developer tools to build, test, deploy, extend, and audit software without losing engineering discipline. The 2026 cohort starts August 31.",
+          "published_at": "2026-07-24T21:37:48Z",
+          "collected_at": "2026-07-26T05:48:16+00:00",
+          "score": 7.9,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "Python",
+            "ai",
+            "deploy",
+            "github",
+            "test"
+          ],
+          "metrics": {
+            "stars": 1170,
+            "forks": 194,
+            "open_issues": 0,
+            "language": "Python",
+            "created_at": "2025-05-27T16:43:27Z",
+            "updated_at": "2026-07-26T01:17:06Z",
+            "query": "AI testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test",
+            "AI/Agent 关键词：ai",
+            "可落地工程信号：deploy",
+            "软件交付语境：software, developer",
+            "GitHub 热度加分：2.1",
+            "分类命中：ai"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "open-gsd/gsd-browser",
+          "url": "https://github.com/open-gsd/gsd-browser",
+          "summary": "A fast, native browser automation CLI built from the ground up for AI agents, powered by Chrome DevTools Protocol. 63 commands covering navigation, interaction, screenshots, accessibility, network mocking, visual diffing, test generation, and more — all from a single binary.",
+          "published_at": "2026-07-25T18:52:39Z",
+          "collected_at": "2026-07-26T05:48:17+00:00",
+          "score": 7.83,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "Rust",
+            "agents",
+            "ai",
+            "automation",
+            "browser automation",
+            "cli",
+            "github",
+            "test"
+          ],
+          "metrics": {
+            "stars": 32,
+            "forks": 4,
+            "open_issues": 0,
+            "language": "Rust",
+            "created_at": "2026-05-29T10:55:00Z",
+            "updated_at": "2026-07-25T18:52:43Z",
+            "query": "test automation agent"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, automation, browser automation",
+            "AI/Agent 关键词：ai, agents",
+            "可落地工程信号：cli",
+            "软件交付语境：cli",
+            "GitHub 热度加分：1.0",
+            "分类命中：test generation, ai"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "isagawa-qa/platform-playwright",
+          "url": "https://github.com/isagawa-qa/platform-playwright",
+          "summary": "TypeScript/Playwright test automation with 5-layer architecture, API testing, and kernel enforcement",
+          "published_at": "2026-07-23T08:33:01Z",
+          "collected_at": "2026-07-26T05:48:20+00:00",
+          "score": 7.82,
+          "category": "QA 自动化 / 测试 Agent",
+          "tags": [
+            "TypeScript",
+            "api",
+            "automation",
+            "github",
+            "qa",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 6,
+            "forks": 0,
+            "open_issues": 0,
+            "language": "TypeScript",
+            "created_at": "2026-02-25T14:18:13Z",
+            "updated_at": "2026-07-23T09:05:30Z",
+            "query": "API testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：qa, test, testing, automation, playwright, api testing",
+            "可落地工程信号：api",
+            "软件交付语境：api, playwright, qa, test automation",
+            "GitHub 热度加分：0.5",
+            "分类命中：qa, test automation"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "DataficationSDK/Motus",
+          "url": "https://github.com/DataficationSDK/Motus",
+          "summary": "Extensible browser automation and testing framework for .NET. Communicates directly with Chromium (CDP) and Firefox (WebDriver BiDi) over WebSocket, no Node.js dependency. Source generated protocol bindings, Roslyn analyzers, a test recorder, a Blazor visual runner, and an MCP server for AI agents, all built on public plugin interfaces.",
+          "published_at": "2026-07-25T14:10:02Z",
+          "collected_at": "2026-07-26T05:48:17+00:00",
+          "score": 7.48,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "C#",
+            "agents",
+            "ai",
+            "automation",
+            "framework",
+            "github",
+            "mcp",
+            "plugin",
+            "runner",
+            "test",
+            "testing"
+          ],
+          "metrics": {
+            "stars": 15,
+            "forks": 3,
+            "open_issues": 0,
+            "language": "C#",
+            "created_at": "2026-03-11T22:44:52Z",
+            "updated_at": "2026-07-25T14:10:14Z",
+            "query": "test automation agent"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, testing, automation, runner, browser automation",
+            "AI/Agent 关键词：ai, agents, mcp",
+            "可落地工程信号：framework, plugin",
+            "缺少软件交付/测试工程语境",
+            "GitHub 热度加分：0.8",
+            "分类命中：runner, automation, mcp"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "wei18/Upkeep",
+          "url": "https://github.com/wei18/Upkeep",
+          "summary": "Upkeep — an AI audit crew for your repo. Catches docs/spec/asset drift with evidence; output-only. Claude Code plugin/skill + reusable CI workflow.",
+          "published_at": "2026-07-21T14:26:44Z",
+          "collected_at": "2026-07-26T05:48:20+00:00",
+          "score": 7.46,
+          "category": "自动化执行流 / CI 编排",
+          "tags": [
+            "TypeScript",
+            "ai",
+            "ci",
+            "claude",
+            "github",
+            "plugin",
+            "workflow"
+          ],
+          "metrics": {
+            "stars": 9,
+            "forks": 0,
+            "open_issues": 3,
+            "language": "TypeScript",
+            "created_at": "2026-06-05T03:47:57Z",
+            "updated_at": "2026-07-23T16:40:45Z",
+            "query": "CI workflow automation AI"
+          },
+          "reason": [
+            "测试/工程自动化关键词：workflow, ci",
+            "AI/Agent 关键词：ai, claude",
+            "可落地工程信号：plugin",
+            "软件交付语境：code, repo, ci",
+            "GitHub 热度加分：0.6",
+            "分类命中：workflow, ci"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "aiqualitylab/ai-natural-language-tests",
+          "url": "https://github.com/aiqualitylab/ai-natural-language-tests",
+          "summary": "Enterprise-grade platform to generate and execute Cypress, Playwright, WebdriverIO, and Appium end-to-end tests from natural language requirements. (Appium is experimental and requires external mobile infrastructure.)",
+          "published_at": "2026-07-25T22:56:52Z",
+          "collected_at": "2026-07-26T05:48:18+00:00",
+          "score": 7.42,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "Python",
+            "ai",
+            "cypress",
+            "end-to-end",
+            "github",
+            "playwright",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 22,
+            "forks": 7,
+            "open_issues": 7,
+            "language": "Python",
+            "created_at": "2025-12-10T15:50:17Z",
+            "updated_at": "2026-07-25T22:56:56Z",
+            "query": "Playwright AI testing"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, playwright, cypress, end-to-end",
+            "AI/Agent 关键词：ai",
+            "软件交付语境：playwright, cypress",
+            "GitHub 热度加分：1.0",
+            "分类命中：end-to-end, playwright, cypress"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "testcontainers/testcontainers-go",
+          "url": "https://github.com/testcontainers/testcontainers-go",
+          "summary": "Testcontainers for Go is a Go package that makes it simple to create and clean up container-based dependencies for automated integration/smoke tests. The clean, easy-to-use API enables developers to programmatically define containers that should be run as part of a test and clean up those resources when the test is done.",
+          "published_at": "2026-07-25T05:03:06Z",
+          "collected_at": "2026-07-26T05:48:20+00:00",
+          "score": 7.4,
+          "category": "开发者效率自动化",
+          "tags": [
+            "Go",
+            "api",
+            "github",
+            "integration",
+            "test",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 4931,
+            "forks": 623,
+            "open_issues": 170,
+            "language": "Go",
+            "created_at": "2018-07-18T15:04:31Z",
+            "updated_at": "2026-07-26T00:12:47Z",
+            "query": "API testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, tests",
+            "可落地工程信号：api, integration",
+            "软件交付语境：api",
+            "GitHub 热度加分：2.5"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "m-pujic-levi9-com/playwright-e2e-tests",
+          "url": "https://github.com/m-pujic-levi9-com/playwright-e2e-tests",
+          "summary": "Playwright E2E Test Framework",
+          "published_at": "2026-07-20T07:03:41Z",
+          "collected_at": "2026-07-26T05:48:19+00:00",
+          "score": 7.38,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "TypeScript",
+            "e2e",
+            "framework",
+            "github",
+            "playwright",
+            "test",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 54,
+            "forks": 13,
+            "open_issues": 2,
+            "language": "TypeScript",
+            "created_at": "2023-05-26T09:40:18Z",
+            "updated_at": "2026-07-20T06:57:04Z",
+            "query": "E2E testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test, tests, playwright, e2e",
+            "可落地工程信号：framework",
+            "软件交付语境：playwright, e2e",
+            "GitHub 热度加分：1.2",
+            "分类命中：e2e, playwright"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "Agent-Field/SWE-AF",
+          "url": "https://github.com/Agent-Field/SWE-AF",
+          "summary": "Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship.",
+          "published_at": "2026-07-24T19:58:16Z",
+          "collected_at": "2026-07-26T05:48:17+00:00",
+          "score": 7.38,
+          "category": "测试用例生成 / LLM 辅助测试",
+          "tags": [
+            "Go",
+            "agent",
+            "agents",
+            "ai",
+            "github",
+            "test"
+          ],
+          "metrics": {
+            "stars": 951,
+            "forks": 158,
+            "open_issues": 9,
+            "language": "Go",
+            "created_at": "2026-02-04T16:33:08Z",
+            "updated_at": "2026-07-26T00:10:49Z",
+            "query": "software testing agent"
+          },
+          "reason": [
+            "测试/工程自动化关键词：test",
+            "AI/Agent 关键词：ai, agent, agents",
+            "软件交付语境：software, code",
+            "GitHub 热度加分：2.2",
+            "分类命中：ai"
+          ]
+        },
+        {
+          "source_type": "github",
+          "source_name": "GitHub",
+          "title": "playwright-php/playwright",
+          "url": "https://github.com/playwright-php/playwright",
+          "summary": "Playwright PHP library for browser automation: navigation, E2E tests, assertions, screenshots, and so much more!",
+          "published_at": "2026-07-25T16:21:50Z",
+          "collected_at": "2026-07-26T05:48:19+00:00",
+          "score": 7.38,
+          "category": "E2E / 浏览器自动化测试",
+          "tags": [
+            "PHP",
+            "automation",
+            "e2e",
+            "github",
+            "playwright",
+            "tests"
+          ],
+          "metrics": {
+            "stars": 204,
+            "forks": 17,
+            "open_issues": 10,
+            "language": "PHP",
+            "created_at": "2025-08-20T19:20:42Z",
+            "updated_at": "2026-07-25T16:20:50Z",
+            "query": "E2E testing automation"
+          },
+          "reason": [
+            "测试/工程自动化关键词：tests, automation, playwright, e2e, browser automation",
+            "软件交付语境：playwright, e2e",
+            "GitHub 热度加分：1.6",
+            "分类命中：e2e, playwright, browser automation"
+          ]
+        }
+      ]
+    }
+  ]
+}
