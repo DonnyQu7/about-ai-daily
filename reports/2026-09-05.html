@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>软件测试与自动化执行流 GitHub 热点日报</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --ink: #172033;
+      --muted: #667085;
+      --line: #d9e1ee;
+      --accent: #0f766e;
+      --accent-2: #1d4ed8;
+      --warn: #b45309;
+      --shadow: 0 12px 34px rgba(23, 32, 51, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    a { color: inherit; text-decoration: none; }
+    .shell { max-width: 1180px; margin: 0 auto; padding: 32px 20px 56px; }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 24px;
+      align-items: stretch;
+      margin-bottom: 22px;
+    }
+    .hero-main, .hero-side, .section, .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .hero-main { padding: 28px; }
+    .hero-side { padding: 22px; display: flex; flex-direction: column; gap: 14px; }
+    h1 { margin: 0 0 12px; font-size: 34px; line-height: 1.16; letter-spacing: 0; }
+    h2 { margin: 0 0 16px; font-size: 22px; letter-spacing: 0; }
+    h3 { margin: 0 0 8px; font-size: 17px; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 22px; }
+    .stat { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: #fbfcff; }
+    .stat b { display: block; font-size: 24px; color: var(--accent-2); }
+    .poster-link {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 42px;
+      border-radius: 8px;
+      background: var(--ink);
+      color: #fff;
+      font-weight: 700;
+      padding: 0 14px;
+    }
+    .highlights { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-bottom: 22px; }
+    .card { padding: 18px; }
+    .card:hover { border-color: #9db4d5; transform: translateY(-1px); transition: 120ms ease; }
+    .badge { display: inline-flex; align-items: center; border: 1px solid #b6d7d2; color: #075e55; background: #ecfdf9; border-radius: 999px; padding: 2px 9px; font-size: 12px; font-weight: 700; }
+    .score { color: var(--accent-2); font-weight: 800; }
+    .summary { color: #344054; margin: 10px 0 12px; }
+    .url { color: var(--accent-2); word-break: break-all; font-size: 13px; }
+    .section { padding: 22px; margin: 22px 0; }
+    .category { margin-top: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .kv { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .pill { background: #eef2f7; color: #344054; border-radius: 999px; padding: 2px 8px; font-size: 12px; }
+    .reason { color: var(--muted); font-size: 13px; margin-top: 10px; }
+    .errors { border-color: #f3c98b; background: #fffbeb; color: #7c3e00; }
+    @media (max-width: 860px) {
+      .hero, .highlights, .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 28px; }
+      .stats { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-main">
+        <div class="badge">Software Testing Radar</div>
+        <h1>软件测试与自动化执行流 GitHub 热点日报</h1>
+        <p class="meta">生成时间：2026-09-05T07:08:59+00:00 · 视角：软件测试、QA 自动化、执行流、工程质量</p>
+        <div class="stats">
+          <div class="stat"><b>211</b><span>原始候选</span></div>
+          <div class="stat"><b>50</b><span>入选项目</span></div>
+          <div class="stat"><b>36</b><span>去重项目</span></div>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <h2>筛选原则</h2>
+        <p class="meta">商业营销、内容创作、垂直行业但与编程/测试无关的项目已降权。优先关注 QA、E2E、API 测试、CI 执行流、代码质量和自动化工程。</p>
+        <a class="poster-link" href="2026-09-05-poster.svg">打开日报海报</a>
+      </aside>
+    </section>
+
+    <section>
+      <h2>Top Highlights</h2>
+      <div class="highlights"><a class="card" href="https://github.com/SDETBMan/qa-automation-portfolio" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>SDETBMan/qa-automation-portfolio</h3>
+  <p class="summary">26-framework SDET monorepo: Playwright, Selenium, Cypress, Cucumber, Postman, FastAPI, Pact, AI/LLM eval (DeepEval), agentic AI (LangChain, LangGraph, DSPy, Claude), k6, flakiness detection, site monitoring, failure triage, QMS evidence (ISO 9001/SOC 2), depe…</p>
+  <div class="score">评分 11.0</div>
+</a>
+<a class="card" href="https://github.com/callstack/agent-device" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>callstack/agent-device</h3>
+  <p class="summary">Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.</p>
+  <div class="score">评分 9.7</div>
+</a>
+<a class="card" href="https://github.com/AvdLee/RocketSimApp" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>AvdLee/RocketSimApp</h3>
+  <p class="summary">RocketSim — 30+ tools for Xcode&#x27;s iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.</p>
+  <div class="score">评分 9.1</div>
+</a>
+<a class="card" href="https://github.com/darrenhinde/OpenAgentsControl" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>darrenhinde/OpenAgentsControl</h3>
+  <p class="summary">AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode</p>
+  <div class="score">评分 9.1</div>
+</a>
+<a class="card" href="https://github.com/qawolf/cli" target="_blank" rel="noopener">
+  <span class="badge">QA 自动化 / 测试 Agent</span>
+  <h3>qawolf/cli</h3>
+  <p class="summary">QA Wolf from anywhere — your terminal, your CI, your AI agent.</p>
+  <div class="score">评分 9.1</div>
+</a>
+<a class="card" href="https://github.com/shinpr/agentic-code" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>shinpr/agentic-code</h3>
+  <p class="summary">Agentic coding framework powered by AGENTS.md: systematic, test-first workflows with quality gates for Cursor, Codex, Gemini CLI, and AI coding agents.</p>
+  <div class="score">评分 8.9</div>
+</a>
+<a class="card" href="https://github.com/ShaftHQ/SHAFT_ENGINE" target="_blank" rel="noopener">
+  <span class="badge">QA 自动化 / 测试 Agent</span>
+  <h3>ShaftHQ/SHAFT_ENGINE</h3>
+  <p class="summary">Java test automation framework for web, mobile, API, CLI, database, and desktop E2E testing with a fluent API and built-in reporting.</p>
+  <div class="score">评分 8.8</div>
+</a>
+<a class="card" href="https://github.com/ureport-web/ureport-standalone" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>ureport-web/ureport-standalone</h3>
+  <p class="summary">test-reporting qa playwright jest pytest mcp ai devtools automation ci-cd</p>
+  <div class="score">评分 8.7</div>
+</a></div>
+    </section>
+
+    <section class="section">
+  <h2>过去 24 小时 GitHub 热点</h2>
+  <p class="meta">窗口：最近 24 小时 · 原始候选 80 · 入选 20</p>
+  <div class="category">
+  <h3>QA 自动化 / 测试 Agent</h3>
+  <div class="grid"><a class="card" href="https://github.com/qawolf/cli" target="_blank" rel="noopener">
+  <span class="badge">QA 自动化 / 测试 Agent</span>
+  <h3>qawolf/cli</h3>
+  <p class="summary"><strong>做什么：</strong>QA Wolf from anywhere — your terminal, your CI, your AI agent.</p>
+  <div class="url">https://github.com/qawolf/cli</div>
+  <div class="kv">
+    <span class="pill">评分 9.1</span>
+    <span class="pill">stars=3446, forks=140, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, ci; AI/Agent 关键词：ai, agent; 可落地工程信号：cli; 软件交付语境：cli, ci, qa; GitHub 热度加分：2.5; 分类命中：qa</p>
+</a>
+<a class="card" href="https://github.com/upex-galaxy/agentic-qa-boilerplate" target="_blank" rel="noopener">
+  <span class="badge">QA 自动化 / 测试 Agent</span>
+  <h3>upex-galaxy/agentic-qa-boilerplate</h3>
+  <p class="summary"><strong>做什么：</strong>Agentic QA boilerplate built on Playwright + KATA + TypeScript. Multi-agent skills following the agentskills.io spec, orchestrating the full QA lifecycle: shift-left planning, in-sprint testing, TMS documentation with ROI scoring, KATA automation, and regress…</p>
+  <div class="url">https://github.com/upex-galaxy/agentic-qa-boilerplate</div>
+  <div class="kv">
+    <span class="pill">评分 8.3</span>
+    <span class="pill">stars=21, forks=12, language=HTML</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, testing, automation, playwright, regression; AI/Agent 关键词：agent, agentic, claude; 软件交付语境：code, playwright, qa; GitHub 热度加分：1.0; 分类命中：qa, regression</p>
+</a>
+<a class="card" href="https://github.com/TestSprite/testsprite-cli" target="_blank" rel="noopener">
+  <span class="badge">QA 自动化 / 测试 Agent</span>
+  <h3>TestSprite/testsprite-cli</h3>
+  <p class="summary"><strong>做什么：</strong>Official TestSprite CLI — AI-powered automated testing from your terminal</p>
+  <div class="url">https://github.com/TestSprite/testsprite-cli</div>
+  <div class="kv">
+    <span class="pill">评分 8.1</span>
+    <span class="pill">stars=3123, forks=152, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing; AI/Agent 关键词：ai; 可落地工程信号：cli; 软件交付语境：cli; GitHub 热度加分：2.5; 分类命中：automated testing</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>E2E / 浏览器自动化测试</h3>
+  <div class="grid"><a class="card" href="https://github.com/microsoft/playwright" target="_blank" rel="noopener">
+  <span class="badge">E2E / 浏览器自动化测试</span>
+  <h3>microsoft/playwright</h3>
+  <p class="summary"><strong>做什么：</strong>Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.</p>
+  <div class="url">https://github.com/microsoft/playwright</div>
+  <div class="kv">
+    <span class="pill">评分 8.5</span>
+    <span class="pill">stars=95643, forks=6386, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, automation, playwright; 可落地工程信号：framework, api; 软件交付语境：api, playwright; GitHub 热度加分：2.5; 分类命中：playwright, web testing</p>
+</a>
+<a class="card" href="https://github.com/jacopone/code-cursor-nix" target="_blank" rel="noopener">
+  <span class="badge">E2E / 浏览器自动化测试</span>
+  <h3>jacopone/code-cursor-nix</h3>
+  <p class="summary"><strong>做什么：</strong>Auto-updating Nix package for Cursor AI editor with browser automation (Playwright/Puppeteer/Selenium). Updates 3x/week. Chrome bundled for NixOS testing.</p>
+  <div class="url">https://github.com/jacopone/code-cursor-nix</div>
+  <div class="kv">
+    <span class="pill">评分 8.3</span>
+    <span class="pill">stars=7, forks=3, language=Shell</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, automation, playwright, selenium, puppeteer, browser automation; AI/Agent 关键词：ai; 软件交付语境：code, playwright, selenium; GitHub 热度加分：0.7; 分类命中：playwright, selenium, browser automation, puppeteer</p>
+</a>
+<a class="card" href="https://github.com/Blockether/spel" target="_blank" rel="noopener">
+  <span class="badge">E2E / 浏览器自动化测试</span>
+  <h3>Blockether/spel</h3>
+  <p class="summary"><strong>做什么：</strong>Idiomatic Clojure wrapper for Playwright. Browser automation, API testing, Allure reporting, and native CLI - for Chromium, Firefox, and WebKit</p>
+  <div class="url">https://github.com/Blockether/spel</div>
+  <div class="kv">
+    <span class="pill">评分 8.1</span>
+    <span class="pill">stars=65, forks=1, language=Clojure</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, automation, playwright, browser automation, api testing; 可落地工程信号：cli, api; 软件交付语境：api, cli, playwright; GitHub 热度加分：1.1; 分类命中：playwright, browser automation</p>
+</a>
+<a class="card" href="https://github.com/aiqualitylab/ai-natural-language-tests" target="_blank" rel="noopener">
+  <span class="badge">E2E / 浏览器自动化测试</span>
+  <h3>aiqualitylab/ai-natural-language-tests</h3>
+  <p class="summary"><strong>做什么：</strong>Enterprise-grade platform to generate and execute Cypress, Playwright, WebdriverIO, and Appium end-to-end tests from natural language requirements. (Appium is experimental and requires external mobile infrastructure.)</p>
+  <div class="url">https://github.com/aiqualitylab/ai-natural-language-tests</div>
+  <div class="kv">
+    <span class="pill">评分 7.4</span>
+    <span class="pill">stars=23, forks=7, language=Python</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：tests, playwright, cypress, end-to-end; AI/Agent 关键词：ai; 软件交付语境：playwright, cypress; GitHub 热度加分：1.0; 分类命中：end-to-end, playwright, cypress</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>API / 接口测试与 Mock</h3>
+  <div class="grid"><a class="card" href="https://github.com/usebruno/bruno" target="_blank" rel="noopener">
+  <span class="badge">API / 接口测试与 Mock</span>
+  <h3>usebruno/bruno</h3>
+  <p class="summary"><strong>做什么：</strong>Opensource IDE For Exploring and Testing API&#x27;s (lightweight alternative to Postman/Insomnia)</p>
+  <div class="url">https://github.com/usebruno/bruno</div>
+  <div class="kv">
+    <span class="pill">评分 7.2</span>
+    <span class="pill">stars=46767, forks=2849, language=JavaScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing; 可落地工程信号：api; 软件交付语境：ide, api; GitHub 热度加分：2.5; 分类命中：postman</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>自动化执行流 / CI 编排</h3>
+  <div class="grid"><a class="card" href="https://github.com/callstack/agent-device" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>callstack/agent-device</h3>
+  <p class="summary"><strong>做什么：</strong>Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.</p>
+  <div class="url">https://github.com/callstack/agent-device</div>
+  <div class="kv">
+    <span class="pill">评分 9.7</span>
+    <span class="pill">stars=4356, forks=273, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：automation; AI/Agent 关键词：ai, agent, agents, mcp; 可落地工程信号：cli, api; 软件交付语境：coding, api, cli; GitHub 热度加分：2.5; 分类命中：automation, mcp</p>
+</a>
+<a class="card" href="https://github.com/AvdLee/RocketSimApp" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>AvdLee/RocketSimApp</h3>
+  <p class="summary"><strong>做什么：</strong>RocketSim — 30+ tools for Xcode&#x27;s iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.</p>
+  <div class="url">https://github.com/AvdLee/RocketSimApp</div>
+  <div class="kv">
+    <span class="pill">评分 9.1</span>
+    <span class="pill">stars=794, forks=37, language=Swift</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, automation, debugging, monitoring; AI/Agent 关键词：ai, agent; 可落地工程信号：cli; 软件交付语境：cli; GitHub 热度加分：2.1; 分类命中：automation</p>
+</a>
+<a class="card" href="https://github.com/wei18/Upkeep" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>wei18/Upkeep</h3>
+  <p class="summary"><strong>做什么：</strong>Upkeep — an AI audit crew for your repo. Catches docs/spec/asset drift with evidence; output-only. Claude Code plugin/skill + reusable CI workflow.</p>
+  <div class="url">https://github.com/wei18/Upkeep</div>
+  <div class="kv">
+    <span class="pill">评分 7.6</span>
+    <span class="pill">stars=14, forks=0, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：workflow, ci; AI/Agent 关键词：ai, claude; 可落地工程信号：plugin; 软件交付语境：code, repo, ci; GitHub 热度加分：0.7; 分类命中：workflow, ci</p>
+</a>
+<a class="card" href="https://github.com/DataficationSDK/Motus" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>DataficationSDK/Motus</h3>
+  <p class="summary"><strong>做什么：</strong>Extensible browser automation and testing framework for .NET. Communicates directly with Chromium (CDP) and Firefox (WebDriver BiDi) over WebSocket, no Node.js dependency. Source generated protocol bindings, Roslyn analyzers, a test recorder, a Blazor visual…</p>
+  <div class="url">https://github.com/DataficationSDK/Motus</div>
+  <div class="kv">
+    <span class="pill">评分 7.5</span>
+    <span class="pill">stars=15, forks=3, language=C#</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test, testing, automation, runner, browser automation; AI/Agent 关键词：ai, agents, mcp; 可落地工程信号：framework, plugin; 缺少软件交付/测试工程语境; GitHub 热度加分：0.8; 分类命中：runner, automation, mcp</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>代码质量 / Review / 静态分析</h3>
+  <div class="grid"><a class="card" href="https://github.com/bestdeejay-design/agent-skills" target="_blank" rel="noopener">
+  <span class="badge">代码质量 / Review / 静态分析</span>
+  <h3>bestdeejay-design/agent-skills</h3>
+  <p class="summary"><strong>做什么：</strong>Agent Skills - 51 skills for AI agents (Sisyphus, opencode): frontend-perfection (Lighthouse audit), secret-scanner, security-review, commit-lint, coverage-analyzer, api-contract-testing, seo-toolkit, sql-helper, docs-system, code-review, github-repo-hygiene.…</p>
+  <div class="url">https://github.com/bestdeejay-design/agent-skills</div>
+  <div class="kv">
+    <span class="pill">评分 8.1</span>
+    <span class="pill">stars=5, forks=0, language=Python</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, ci, coverage; AI/Agent 关键词：ai, agent, agents; 可落地工程信号：api; 软件交付语境：code, repo, github, api, ci; GitHub 热度加分：0.4; 分类命中：lint, coverage</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>测试用例生成 / LLM 辅助测试</h3>
+  <div class="grid"><a class="card" href="https://github.com/SDETBMan/qa-automation-portfolio" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>SDETBMan/qa-automation-portfolio</h3>
+  <p class="summary"><strong>做什么：</strong>26-framework SDET monorepo: Playwright, Selenium, Cypress, Cucumber, Postman, FastAPI, Pact, AI/LLM eval (DeepEval), agentic AI (LangChain, LangGraph, DSPy, Claude), k6, flakiness detection, site monitoring, failure triage, QMS evidence (ISO 9001/SOC 2), depe…</p>
+  <div class="url">https://github.com/SDETBMan/qa-automation-portfolio</div>
+  <div class="kv">
+    <span class="pill">评分 11.0</span>
+    <span class="pill">stars=34, forks=18, language=Python</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, automation, playwright, selenium, cypress, monitoring; AI/Agent 关键词：ai, llm, agentic, claude; 可落地工程信号：framework, github actions; 软件交付语境：github, playwright, selenium, cypress, qa; GitHub 热度加分：1.1; 分类命中：llm, ai, agentic, claude</p>
+</a>
+<a class="card" href="https://github.com/DataTalksClub/ai-dev-tools-zoomcamp" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>DataTalksClub/ai-dev-tools-zoomcamp</h3>
+  <p class="summary"><strong>做什么：</strong>A free, hands-on course on using AI developer tools to build, test, deploy, extend, and audit software without losing engineering discipline. The 2026 cohort starts August 31.</p>
+  <div class="url">https://github.com/DataTalksClub/ai-dev-tools-zoomcamp</div>
+  <div class="kv">
+    <span class="pill">评分 8.0</span>
+    <span class="pill">stars=1553, forks=244, language=Python</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test; AI/Agent 关键词：ai; 可落地工程信号：deploy; 软件交付语境：software, developer; GitHub 热度加分：2.2; 分类命中：ai</p>
+</a>
+<a class="card" href="https://github.com/willcoliveira/qualiow-playwright-skills" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>willcoliveira/qualiow-playwright-skills</h3>
+  <p class="summary"><strong>做什么：</strong>wico - Reusable Playwright E2E testing skills for AI coding assistants (Claude Code, Cursor, Copilot)</p>
+  <div class="url">https://github.com/willcoliveira/qualiow-playwright-skills</div>
+  <div class="kv">
+    <span class="pill">评分 7.7</span>
+    <span class="pill">stars=16, forks=3, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, playwright, e2e; AI/Agent 关键词：ai, claude, copilot; 软件交付语境：code, coding, playwright, e2e; GitHub 热度加分：0.8; 分类命中：ai, claude, copilot</p>
+</a>
+<a class="card" href="https://github.com/willcoliveira/qualiow-exploratory-testing-skills" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>willcoliveira/qualiow-exploratory-testing-skills</h3>
+  <p class="summary"><strong>做什么：</strong>wico - AI-powered exploratory testing skills for Claude Code using Playwright CLI</p>
+  <div class="url">https://github.com/willcoliveira/qualiow-exploratory-testing-skills</div>
+  <div class="kv">
+    <span class="pill">评分 7.4</span>
+    <span class="pill">stars=7, forks=1, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, playwright; AI/Agent 关键词：ai, claude; 可落地工程信号：cli; 软件交付语境：code, cli, playwright; GitHub 热度加分：0.6; 分类命中：ai, claude</p>
+</a>
+<a class="card" href="https://github.com/harumiWeb/xlflow" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>harumiWeb/xlflow</h3>
+  <p class="summary"><strong>做什么：</strong>AI-Agent-ready CLI framework for editing, testing, running, tracing, and diffing Excel VBA projects.</p>
+  <div class="url">https://github.com/harumiWeb/xlflow</div>
+  <div class="kv">
+    <span class="pill">评分 7.4</span>
+    <span class="pill">stars=69, forks=9, language=Go</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing; AI/Agent 关键词：ai, agent; 可落地工程信号：framework, cli; 软件交付语境：cli; GitHub 热度加分：1.3; 分类命中：ai</p>
+</a>
+<a class="card" href="https://github.com/microsoft/tui-test" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>microsoft/tui-test</h3>
+  <p class="summary"><strong>做什么：</strong>💻 control, record, &amp; test any tui app / cli with popular terminals - makes the terminal fully accessible to AI</p>
+  <div class="url">https://github.com/microsoft/tui-test</div>
+  <div class="kv">
+    <span class="pill">评分 7.3</span>
+    <span class="pill">stars=251, forks=22, language=Rust</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test; AI/Agent 关键词：ai; 可落地工程信号：cli; 软件交付语境：cli; GitHub 热度加分：1.7; 分类命中：ai</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>开发者效率自动化</h3>
+  <div class="grid"><a class="card" href="https://github.com/testcontainers/testcontainers-go" target="_blank" rel="noopener">
+  <span class="badge">开发者效率自动化</span>
+  <h3>testcontainers/testcontainers-go</h3>
+  <p class="summary"><strong>做什么：</strong>Testcontainers for Go is a Go package that makes it simple to create and clean up container-based dependencies for automated integration/smoke tests. The clean, easy-to-use API enables developers to programmatically define containers that should be run as par…</p>
+  <div class="url">https://github.com/testcontainers/testcontainers-go</div>
+  <div class="kv">
+    <span class="pill">评分 7.4</span>
+    <span class="pill">stars=4970, forks=634, language=Go</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test, tests; 可落地工程信号：api, integration; 软件交付语境：api; GitHub 热度加分：2.5</p>
+</a></div>
+</div>
+</section>
+<section class="section">
+  <h2>过去 7 天 GitHub 热点</h2>
+  <p class="meta">窗口：最近 168 小时 · 原始候选 131 · 入选 30</p>
+  <div class="category">
+  <h3>QA 自动化 / 测试 Agent</h3>
+  <div class="grid"><a class="card" href="https://github.com/qawolf/cli" target="_blank" rel="noopener">
+  <span class="badge">QA 自动化 / 测试 Agent</span>
+  <h3>qawolf/cli</h3>
+  <p class="summary"><strong>做什么：</strong>QA Wolf from anywhere — your terminal, your CI, your AI agent.</p>
+  <div class="url">https://github.com/qawolf/cli</div>
+  <div class="kv">
+    <span class="pill">评分 9.1</span>
+    <span class="pill">stars=3446, forks=140, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, ci; AI/Agent 关键词：ai, agent; 可落地工程信号：cli; 软件交付语境：cli, ci, qa; GitHub 热度加分：2.5; 分类命中：qa</p>
+</a>
+<a class="card" href="https://github.com/ShaftHQ/SHAFT_ENGINE" target="_blank" rel="noopener">
+  <span class="badge">QA 自动化 / 测试 Agent</span>
+  <h3>ShaftHQ/SHAFT_ENGINE</h3>
+  <p class="summary"><strong>做什么：</strong>Java test automation framework for web, mobile, API, CLI, database, and desktop E2E testing with a fluent API and built-in reporting.</p>
+  <div class="url">https://github.com/ShaftHQ/SHAFT_ENGINE</div>
+  <div class="kv">
+    <span class="pill">评分 8.8</span>
+    <span class="pill">stars=407, forks=152, language=Java</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test, testing, automation, e2e; 可落地工程信号：framework, cli, api; 软件交付语境：api, cli, e2e, test automation; GitHub 热度加分：2.0; 分类命中：test automation</p>
+</a>
+<a class="card" href="https://github.com/upex-galaxy/agentic-qa-boilerplate" target="_blank" rel="noopener">
+  <span class="badge">QA 自动化 / 测试 Agent</span>
+  <h3>upex-galaxy/agentic-qa-boilerplate</h3>
+  <p class="summary"><strong>做什么：</strong>Agentic QA boilerplate built on Playwright + KATA + TypeScript. Multi-agent skills following the agentskills.io spec, orchestrating the full QA lifecycle: shift-left planning, in-sprint testing, TMS documentation with ROI scoring, KATA automation, and regress…</p>
+  <div class="url">https://github.com/upex-galaxy/agentic-qa-boilerplate</div>
+  <div class="kv">
+    <span class="pill">评分 8.3</span>
+    <span class="pill">stars=21, forks=12, language=HTML</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, testing, automation, playwright, regression; AI/Agent 关键词：agent, agentic, claude; 软件交付语境：code, playwright, qa; GitHub 热度加分：1.0; 分类命中：qa, regression</p>
+</a>
+<a class="card" href="https://github.com/TestSprite/testsprite-cli" target="_blank" rel="noopener">
+  <span class="badge">QA 自动化 / 测试 Agent</span>
+  <h3>TestSprite/testsprite-cli</h3>
+  <p class="summary"><strong>做什么：</strong>Official TestSprite CLI — AI-powered automated testing from your terminal</p>
+  <div class="url">https://github.com/TestSprite/testsprite-cli</div>
+  <div class="kv">
+    <span class="pill">评分 8.1</span>
+    <span class="pill">stars=3123, forks=152, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing; AI/Agent 关键词：ai; 可落地工程信号：cli; 软件交付语境：cli; GitHub 热度加分：2.5; 分类命中：automated testing</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>E2E / 浏览器自动化测试</h3>
+  <div class="grid"><a class="card" href="https://github.com/microsoft/playwright" target="_blank" rel="noopener">
+  <span class="badge">E2E / 浏览器自动化测试</span>
+  <h3>microsoft/playwright</h3>
+  <p class="summary"><strong>做什么：</strong>Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.</p>
+  <div class="url">https://github.com/microsoft/playwright</div>
+  <div class="kv">
+    <span class="pill">评分 8.5</span>
+    <span class="pill">stars=95643, forks=6386, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, automation, playwright; 可落地工程信号：framework, api; 软件交付语境：api, playwright; GitHub 热度加分：2.5; 分类命中：playwright, web testing</p>
+</a>
+<a class="card" href="https://github.com/jacopone/code-cursor-nix" target="_blank" rel="noopener">
+  <span class="badge">E2E / 浏览器自动化测试</span>
+  <h3>jacopone/code-cursor-nix</h3>
+  <p class="summary"><strong>做什么：</strong>Auto-updating Nix package for Cursor AI editor with browser automation (Playwright/Puppeteer/Selenium). Updates 3x/week. Chrome bundled for NixOS testing.</p>
+  <div class="url">https://github.com/jacopone/code-cursor-nix</div>
+  <div class="kv">
+    <span class="pill">评分 8.3</span>
+    <span class="pill">stars=7, forks=3, language=Shell</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, automation, playwright, selenium, puppeteer, browser automation; AI/Agent 关键词：ai; 软件交付语境：code, playwright, selenium; GitHub 热度加分：0.7; 分类命中：playwright, selenium, browser automation, puppeteer</p>
+</a>
+<a class="card" href="https://github.com/Blockether/spel" target="_blank" rel="noopener">
+  <span class="badge">E2E / 浏览器自动化测试</span>
+  <h3>Blockether/spel</h3>
+  <p class="summary"><strong>做什么：</strong>Idiomatic Clojure wrapper for Playwright. Browser automation, API testing, Allure reporting, and native CLI - for Chromium, Firefox, and WebKit</p>
+  <div class="url">https://github.com/Blockether/spel</div>
+  <div class="kv">
+    <span class="pill">评分 8.1</span>
+    <span class="pill">stars=65, forks=1, language=Clojure</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, automation, playwright, browser automation, api testing; 可落地工程信号：cli, api; 软件交付语境：api, cli, playwright; GitHub 热度加分：1.1; 分类命中：playwright, browser automation</p>
+</a>
+<a class="card" href="https://github.com/totigm/humanjs" target="_blank" rel="noopener">
+  <span class="badge">E2E / 浏览器自动化测试</span>
+  <h3>totigm/humanjs</h3>
+  <p class="summary"><strong>做什么：</strong>Humanize browser automation for AI agents, QA tests, and demos. Playwright-first — record sessions to video or runnable tests, and drive it over MCP from your favorite AI.</p>
+  <div class="url">https://github.com/totigm/humanjs</div>
+  <div class="kv">
+    <span class="pill">评分 7.9</span>
+    <span class="pill">stars=12, forks=2, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, tests, automation, playwright, browser automation; AI/Agent 关键词：ai, agents, mcp; 软件交付语境：playwright, qa; GitHub 热度加分：0.8; 分类命中：playwright, browser automation</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>API / 接口测试与 Mock</h3>
+  <div class="grid"><a class="card" href="https://github.com/trueleaf/apiflow" target="_blank" rel="noopener">
+  <span class="badge">API / 接口测试与 Mock</span>
+  <h3>trueleaf/apiflow</h3>
+  <p class="summary"><strong>做什么：</strong>A modern API workspace that works both online and offline — combining API documentation, testing, mock, and AI-powered automation in one lightweight tool</p>
+  <div class="url">https://github.com/trueleaf/apiflow</div>
+  <div class="kv">
+    <span class="pill">评分 8.4</span>
+    <span class="pill">stars=628, forks=102, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, automation, mock; AI/Agent 关键词：ai; 可落地工程信号：api; 软件交付语境：api; GitHub 热度加分：2.0; 分类命中：mock</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>自动化执行流 / CI 编排</h3>
+  <div class="grid"><a class="card" href="https://github.com/callstack/agent-device" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>callstack/agent-device</h3>
+  <p class="summary"><strong>做什么：</strong>Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.</p>
+  <div class="url">https://github.com/callstack/agent-device</div>
+  <div class="kv">
+    <span class="pill">评分 9.7</span>
+    <span class="pill">stars=4356, forks=273, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：automation; AI/Agent 关键词：ai, agent, agents, mcp; 可落地工程信号：cli, api; 软件交付语境：coding, api, cli; GitHub 热度加分：2.5; 分类命中：automation, mcp</p>
+</a>
+<a class="card" href="https://github.com/AvdLee/RocketSimApp" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>AvdLee/RocketSimApp</h3>
+  <p class="summary"><strong>做什么：</strong>RocketSim — 30+ tools for Xcode&#x27;s iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.</p>
+  <div class="url">https://github.com/AvdLee/RocketSimApp</div>
+  <div class="kv">
+    <span class="pill">评分 9.1</span>
+    <span class="pill">stars=794, forks=37, language=Swift</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, automation, debugging, monitoring; AI/Agent 关键词：ai, agent; 可落地工程信号：cli; 软件交付语境：cli; GitHub 热度加分：2.1; 分类命中：automation</p>
+</a>
+<a class="card" href="https://github.com/darrenhinde/OpenAgentsControl" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>darrenhinde/OpenAgentsControl</h3>
+  <p class="summary"><strong>做什么：</strong>AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode</p>
+  <div class="url">https://github.com/darrenhinde/OpenAgentsControl</div>
+  <div class="kv">
+    <span class="pill">评分 9.1</span>
+    <span class="pill">stars=4825, forks=392, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, workflows, code review; AI/Agent 关键词：ai, agent; 可落地工程信号：framework; 软件交付语境：code; GitHub 热度加分：2.5; 分类命中：workflows</p>
+</a>
+<a class="card" href="https://github.com/ureport-web/ureport-standalone" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>ureport-web/ureport-standalone</h3>
+  <p class="summary"><strong>做什么：</strong>test-reporting qa playwright jest pytest mcp ai devtools automation ci-cd</p>
+  <div class="url">https://github.com/ureport-web/ureport-standalone</div>
+  <div class="kv">
+    <span class="pill">评分 8.7</span>
+    <span class="pill">stars=5, forks=4, language=CoffeeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, test, automation, ci, cd, playwright; AI/Agent 关键词：ai, mcp; 软件交付语境：ci, cd, playwright, qa; GitHub 热度加分：0.6; 分类命中：ci, cd, automation, mcp</p>
+</a>
+<a class="card" href="https://github.com/alfredolopez80/multi-agent-ralph-loop" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>alfredolopez80/multi-agent-ralph-loop</h3>
+  <p class="summary"><strong>做什么：</strong>Autonomous orchestration framework for Claude Code with MemPalace-inspired memory (4-layer stack, 818-token wake-up), parallel-first Agent Teams (6 teammates), Aristotle First Principles methodology, and 4-stage quality gates. 925+ tests, 22 active hooks, aut…</p>
+  <div class="url">https://github.com/alfredolopez80/multi-agent-ralph-loop</div>
+  <div class="kv">
+    <span class="pill">评分 8.5</span>
+    <span class="pill">stars=146, forks=21, language=Shell</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：tests, pipeline, orchestration; AI/Agent 关键词：agent, claude; 可落地工程信号：framework; 软件交付语境：code, pipeline; GitHub 热度加分：1.5; 分类命中：orchestration, pipeline</p>
+</a>
+<a class="card" href="https://github.com/link1345/gua" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>link1345/gua</h3>
+  <p class="summary"><strong>做什么：</strong>Playwright-style UI testing for Godot &amp; Unity. One semantic automation layer for tests, CI, and AI coding agents via MCP.</p>
+  <div class="url">https://github.com/link1345/gua</div>
+  <div class="kv">
+    <span class="pill">评分 8.3</span>
+    <span class="pill">stars=16, forks=0, language=C#</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：tests, testing, automation, ci, playwright; AI/Agent 关键词：ai, agents, mcp; 软件交付语境：coding, ci, playwright; GitHub 热度加分：0.8; 分类命中：ci, automation, mcp</p>
+</a>
+<a class="card" href="https://github.com/wislertt/leetcode-py" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>wislertt/leetcode-py</h3>
+  <p class="summary"><strong>做什么：</strong>Python LeetCode practice environment with automated problem generation, data structure visualizations, and comprehensive testing. Includes all Grind 75, partial Blind, Neetcode and Algomaster problems with enhanced TreeNode/ListNode helpers, CI/CD pipeline, a…</p>
+  <div class="url">https://github.com/wislertt/leetcode-py</div>
+  <div class="kv">
+    <span class="pill">评分 8.1</span>
+    <span class="pill">stars=140, forks=18, language=Python</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, pipeline, ci, cd; AI/Agent 关键词：llm; 软件交付语境：ci, cd, pipeline; GitHub 热度加分：1.5; 分类命中：pipeline, ci, cd</p>
+</a>
+<a class="card" href="https://github.com/tigusigalpa/manus-ai-go" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>tigusigalpa/manus-ai-go</h3>
+  <p class="summary"><strong>做什么：</strong>🚀 Manus AI Go SDK - Complete Golang library for seamless integration with Manus AI API. Build AI-powered applications with task automation, file management, and real-time webhook notifications. Type-safe, idiomatic Go code with comprehensive error handling, f…</p>
+  <div class="url">https://github.com/tigusigalpa/manus-ai-go</div>
+  <div class="kv">
+    <span class="pill">评分 8.0</span>
+    <span class="pill">stars=20, forks=1, language=Go</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test, automation, coverage; AI/Agent 关键词：ai; 可落地工程信号：sdk, api, integration; 软件交付语境：code, api, sdk; GitHub 热度加分：0.8; 分类命中：automation</p>
+</a>
+<a class="card" href="https://github.com/wei18/Upkeep" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>wei18/Upkeep</h3>
+  <p class="summary"><strong>做什么：</strong>Upkeep — an AI audit crew for your repo. Catches docs/spec/asset drift with evidence; output-only. Claude Code plugin/skill + reusable CI workflow.</p>
+  <div class="url">https://github.com/wei18/Upkeep</div>
+  <div class="kv">
+    <span class="pill">评分 7.6</span>
+    <span class="pill">stars=14, forks=0, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：workflow, ci; AI/Agent 关键词：ai, claude; 可落地工程信号：plugin; 软件交付语境：code, repo, ci; GitHub 热度加分：0.7; 分类命中：workflow, ci</p>
+</a>
+<a class="card" href="https://github.com/DataficationSDK/Motus" target="_blank" rel="noopener">
+  <span class="badge">自动化执行流 / CI 编排</span>
+  <h3>DataficationSDK/Motus</h3>
+  <p class="summary"><strong>做什么：</strong>Extensible browser automation and testing framework for .NET. Communicates directly with Chromium (CDP) and Firefox (WebDriver BiDi) over WebSocket, no Node.js dependency. Source generated protocol bindings, Roslyn analyzers, a test recorder, a Blazor visual…</p>
+  <div class="url">https://github.com/DataficationSDK/Motus</div>
+  <div class="kv">
+    <span class="pill">评分 7.5</span>
+    <span class="pill">stars=15, forks=3, language=C#</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test, testing, automation, runner, browser automation; AI/Agent 关键词：ai, agents, mcp; 可落地工程信号：framework, plugin; 缺少软件交付/测试工程语境; GitHub 热度加分：0.8; 分类命中：runner, automation, mcp</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>代码质量 / Review / 静态分析</h3>
+  <div class="grid"><a class="card" href="https://github.com/bestdeejay-design/agent-skills" target="_blank" rel="noopener">
+  <span class="badge">代码质量 / Review / 静态分析</span>
+  <h3>bestdeejay-design/agent-skills</h3>
+  <p class="summary"><strong>做什么：</strong>Agent Skills - 51 skills for AI agents (Sisyphus, opencode): frontend-perfection (Lighthouse audit), secret-scanner, security-review, commit-lint, coverage-analyzer, api-contract-testing, seo-toolkit, sql-helper, docs-system, code-review, github-repo-hygiene.…</p>
+  <div class="url">https://github.com/bestdeejay-design/agent-skills</div>
+  <div class="kv">
+    <span class="pill">评分 8.1</span>
+    <span class="pill">stars=5, forks=0, language=Python</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, ci, coverage; AI/Agent 关键词：ai, agent, agents; 可落地工程信号：api; 软件交付语境：code, repo, github, api, ci; GitHub 热度加分：0.4; 分类命中：lint, coverage</p>
+</a>
+<a class="card" href="https://github.com/mpiton/tauri-pilot" target="_blank" rel="noopener">
+  <span class="badge">代码质量 / Review / 静态分析</span>
+  <h3>mpiton/tauri-pilot</h3>
+  <p class="summary"><strong>做什么：</strong>Interactive testing CLI for Tauri v2 apps : lets AI agents inspect, interact with, and debug Tauri applications in real-time</p>
+  <div class="url">https://github.com/mpiton/tauri-pilot</div>
+  <div class="kv">
+    <span class="pill">评分 7.5</span>
+    <span class="pill">stars=78, forks=13, language=Rust</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, debug; AI/Agent 关键词：ai, agents; 可落地工程信号：cli; 软件交付语境：cli; GitHub 热度加分：1.3; 分类命中：debug</p>
+</a></div>
+</div>
+<div class="category">
+  <h3>测试用例生成 / LLM 辅助测试</h3>
+  <div class="grid"><a class="card" href="https://github.com/SDETBMan/qa-automation-portfolio" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>SDETBMan/qa-automation-portfolio</h3>
+  <p class="summary"><strong>做什么：</strong>26-framework SDET monorepo: Playwright, Selenium, Cypress, Cucumber, Postman, FastAPI, Pact, AI/LLM eval (DeepEval), agentic AI (LangChain, LangGraph, DSPy, Claude), k6, flakiness detection, site monitoring, failure triage, QMS evidence (ISO 9001/SOC 2), depe…</p>
+  <div class="url">https://github.com/SDETBMan/qa-automation-portfolio</div>
+  <div class="kv">
+    <span class="pill">评分 11.0</span>
+    <span class="pill">stars=34, forks=18, language=Python</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, automation, playwright, selenium, cypress, monitoring; AI/Agent 关键词：ai, llm, agentic, claude; 可落地工程信号：framework, github actions; 软件交付语境：github, playwright, selenium, cypress, qa; GitHub 热度加分：1.1; 分类命中：llm, ai, agentic, claude</p>
+</a>
+<a class="card" href="https://github.com/shinpr/agentic-code" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>shinpr/agentic-code</h3>
+  <p class="summary"><strong>做什么：</strong>Agentic coding framework powered by AGENTS.md: systematic, test-first workflows with quality gates for Cursor, Codex, Gemini CLI, and AI coding agents.</p>
+  <div class="url">https://github.com/shinpr/agentic-code</div>
+  <div class="kv">
+    <span class="pill">评分 8.9</span>
+    <span class="pill">stars=49, forks=5, language=JavaScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test, workflows; AI/Agent 关键词：ai, agents, agentic, codex, gemini; 可落地工程信号：framework, cli; 软件交付语境：code, coding, cli; GitHub 热度加分：1.1; 分类命中：ai, agentic, codex</p>
+</a>
+<a class="card" href="https://github.com/ai-dashboad/flutter-skill" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>ai-dashboad/flutter-skill</h3>
+  <p class="summary"><strong>做什么：</strong>AI-powered E2E testing for 10 platforms. 253 MCP tools. Zero config. Works with Claude, Cursor, Windsurf, Copilot. Test Flutter, React Native, iOS, Android, Web, Electron, Tauri, KMP, .NET MAUI — all from natural language.</p>
+  <div class="url">https://github.com/ai-dashboad/flutter-skill</div>
+  <div class="kv">
+    <span class="pill">评分 8.4</span>
+    <span class="pill">stars=364, forks=54, language=Dart</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test, testing, e2e; AI/Agent 关键词：ai, mcp, claude, copilot; 软件交付语境：e2e; GitHub 热度加分：1.8; 分类命中：ai, claude, copilot</p>
+</a>
+<a class="card" href="https://github.com/tugkanboz/awesome-ai-testing" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>tugkanboz/awesome-ai-testing</h3>
+  <p class="summary"><strong>做什么：</strong>A curated list of AI-powered testing tools, frameworks, and resources for QA engineers. From test generation to self-healing automation, MCP-based testing, LLM evaluation, and more.</p>
+  <div class="url">https://github.com/tugkanboz/awesome-ai-testing</div>
+  <div class="kv">
+    <span class="pill">评分 8.2</span>
+    <span class="pill">stars=86, forks=33, language=unknown</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, test, testing, automation; AI/Agent 关键词：ai, llm, mcp; 软件交付语境：qa; GitHub 热度加分：1.5; 分类命中：test generation, llm, ai</p>
+</a>
+<a class="card" href="https://github.com/PramodDutta/qaskills" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>PramodDutta/qaskills</h3>
+  <p class="summary"><strong>做什么：</strong>QA Skills Directory QA Skills is a curated directory of testing-specific skills for AI coding agents (Claude Code, Cursor, Copilot, etc.).</p>
+  <div class="url">https://github.com/PramodDutta/qaskills</div>
+  <div class="kv">
+    <span class="pill">评分 8.2</span>
+    <span class="pill">stars=217, forks=23, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：qa, testing; AI/Agent 关键词：ai, agents, claude, copilot; 软件交付语境：code, coding, qa; GitHub 热度加分：1.6; 分类命中：ai, claude, copilot</p>
+</a>
+<a class="card" href="https://github.com/OpenEvident/vindicate" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>OpenEvident/vindicate</h3>
+  <p class="summary"><strong>做什么：</strong>A local-first Playwright test automation toolkit for AI coding agents (Cursor, Claude Code, Copilot), with MCP tools for codegen, browser control, and recordings.</p>
+  <div class="url">https://github.com/OpenEvident/vindicate</div>
+  <div class="kv">
+    <span class="pill">评分 8.2</span>
+    <span class="pill">stars=46, forks=0, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test, automation, playwright; AI/Agent 关键词：ai, agents, mcp, claude, copilot; 软件交付语境：code, coding, playwright, test automation; GitHub 热度加分：1.0; 分类命中：ai, claude, copilot</p>
+</a>
+<a class="card" href="https://github.com/DataTalksClub/ai-dev-tools-zoomcamp" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>DataTalksClub/ai-dev-tools-zoomcamp</h3>
+  <p class="summary"><strong>做什么：</strong>A free, hands-on course on using AI developer tools to build, test, deploy, extend, and audit software without losing engineering discipline. The 2026 cohort starts August 31.</p>
+  <div class="url">https://github.com/DataTalksClub/ai-dev-tools-zoomcamp</div>
+  <div class="kv">
+    <span class="pill">评分 8.0</span>
+    <span class="pill">stars=1553, forks=244, language=Python</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：test; AI/Agent 关键词：ai; 可落地工程信号：deploy; 软件交付语境：software, developer; GitHub 热度加分：2.2; 分类命中：ai</p>
+</a>
+<a class="card" href="https://github.com/willcoliveira/qualiow-playwright-skills" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>willcoliveira/qualiow-playwright-skills</h3>
+  <p class="summary"><strong>做什么：</strong>wico - Reusable Playwright E2E testing skills for AI coding assistants (Claude Code, Cursor, Copilot)</p>
+  <div class="url">https://github.com/willcoliveira/qualiow-playwright-skills</div>
+  <div class="kv">
+    <span class="pill">评分 7.7</span>
+    <span class="pill">stars=16, forks=3, language=TypeScript</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, playwright, e2e; AI/Agent 关键词：ai, claude, copilot; 软件交付语境：code, coding, playwright, e2e; GitHub 热度加分：0.8; 分类命中：ai, claude, copilot</p>
+</a>
+<a class="card" href="https://github.com/idavidov13/agentic-playwright" target="_blank" rel="noopener">
+  <span class="badge">测试用例生成 / LLM 辅助测试</span>
+  <h3>idavidov13/agentic-playwright</h3>
+  <p class="summary"><strong>做什么：</strong>Production-grade Playwright + TypeScript Scaffold for Agentic Testing. Harness for all major AI coding agents baked in.</p>
+  <div class="url">https://github.com/idavidov13/agentic-playwright</div>
+  <div class="kv">
+    <span class="pill">评分 7.4</span>
+    <span class="pill">stars=161, forks=46, language=Python</span>
+  </div>
+  <p class="reason">测试/工程自动化关键词：testing, playwright; AI/Agent 关键词：ai, agents, agentic; 软件交付语境：coding, playwright; GitHub 热度加分：1.6; 分类命中：ai, agentic</p>
+</a></div>
+</div>
+</section>
+    
+  </main>
+</body>
+</html>
